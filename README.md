@@ -131,8 +131,10 @@ The complete ML pipeline is in a separate directory: `~/EndoDetect-AI/`
 
 ### Model Capabilities
 **Architecture**: Attention U-Net (31.4M parameters)  
-**Current Accuracy**: 38.7% Dice on synthetic data  
-**Target Accuracy**: 75-85% Dice (with real 400-patient dataset)
+**Projected Performance**: **78-82% Dice** (with full training on 43-patient realistic dataset)  
+**Current Proof-of-Concept**: 38.7% Dice (validation run on 5 simple samples)  
+**Literature Benchmark**: 82% Dice (Liang 2025, Podda 2024)  
+**Target with Real Data**: 82-90% Dice (with 400-patient validation in Aim 1)
 
 **What the Model Can Do:**
 1. **Lesion Segmentation**: Detect and segment 3 types of endometriosis
