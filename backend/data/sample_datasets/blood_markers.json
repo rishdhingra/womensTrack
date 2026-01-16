@@ -1,0 +1,222 @@
+[
+  {
+    "patient_id": "P001",
+    "diagnosis": "endometriosis",
+    "crp_mg_l": 1.74,
+    "esr_mm_hr": 13.2,
+    "wbc_count": 9.5,
+    "neutrophil_pct": 65.8,
+    "nlr": 18.31,
+    "age": 44,
+    "bmi": 30.1
+  },
+  {
+    "patient_id": "P002",
+    "diagnosis": "endometriosis",
+    "crp_mg_l": 5.84,
+    "esr_mm_hr": 31.3,
+    "wbc_count": 7.9,
+    "neutrophil_pct": 57.3,
+    "nlr": 10.59,
+    "age": 32,
+    "bmi": 33.8
+  },
+  {
+    "patient_id": "P003",
+    "diagnosis": "endometriosis",
+    "crp_mg_l": 6.4,
+    "esr_mm_hr": 34.6,
+    "wbc_count": 10.3,
+    "neutrophil_pct": 61.7,
+    "nlr": 16.58,
+    "age": 38,
+    "bmi": 22.4
+  },
+  {
+    "patient_id": "P004",
+    "diagnosis": "endometriosis",
+    "crp_mg_l": 12.11,
+    "esr_mm_hr": 29.7,
+    "wbc_count": 9.08,
+    "neutrophil_pct": 65.4,
+    "nlr": 17.2,
+    "age": 35,
+    "bmi": 26.6
+  },
+  {
+    "patient_id": "P005",
+    "diagnosis": "endometriosis",
+    "crp_mg_l": 4.72,
+    "esr_mm_hr": 48.9,
+    "wbc_count": 12.19,
+    "neutrophil_pct": 58.7,
+    "nlr": 17.35,
+    "age": 38,
+    "bmi": 30.7
+  },
+  {
+    "patient_id": "P006",
+    "diagnosis": "endometriosis",
+    "crp_mg_l": 7.81,
+    "esr_mm_hr": 21.2,
+    "wbc_count": 9.26,
+    "neutrophil_pct": 78.0,
+    "nlr": 32.91,
+    "age": 32,
+    "bmi": 31.4
+  },
+  {
+    "patient_id": "P007",
+    "diagnosis": "endometriosis",
+    "crp_mg_l": 3.83,
+    "esr_mm_hr": 19.0,
+    "wbc_count": 7.39,
+    "neutrophil_pct": 70.0,
+    "nlr": 17.21,
+    "age": 29,
+    "bmi": 25.7
+  },
+  {
+    "patient_id": "P008",
+    "diagnosis": "endometriosis",
+    "crp_mg_l": 2.27,
+    "esr_mm_hr": 27.2,
+    "wbc_count": 8.65,
+    "neutrophil_pct": 66.1,
+    "nlr": 16.86,
+    "age": 31,
+    "bmi": 31.7
+  },
+  {
+    "patient_id": "P009",
+    "diagnosis": "endometriosis",
+    "crp_mg_l": 7.66,
+    "esr_mm_hr": 55.6,
+    "wbc_count": 9.22,
+    "neutrophil_pct": 72.8,
+    "nlr": 24.67,
+    "age": 27,
+    "bmi": 33.5
+  },
+  {
+    "patient_id": "P010",
+    "diagnosis": "endometriosis",
+    "crp_mg_l": 5.58,
+    "esr_mm_hr": 32.2,
+    "wbc_count": 10.09,
+    "neutrophil_pct": 71.6,
+    "nlr": 25.42,
+    "age": 38,
+    "bmi": 20.3
+  },
+  {
+    "patient_id": "P011",
+    "diagnosis": "control",
+    "crp_mg_l": 0.9,
+    "esr_mm_hr": 8.9,
+    "wbc_count": 6.11,
+    "neutrophil_pct": 70.9,
+    "nlr": 14.86,
+    "age": 44,
+    "bmi": 29.2
+  },
+  {
+    "patient_id": "P012",
+    "diagnosis": "control",
+    "crp_mg_l": 5.77,
+    "esr_mm_hr": 5.5,
+    "wbc_count": 5.36,
+    "neutrophil_pct": 48.7,
+    "nlr": 5.1,
+    "age": 28,
+    "bmi": 27.1
+  },
+  {
+    "patient_id": "P013",
+    "diagnosis": "control",
+    "crp_mg_l": 3.49,
+    "esr_mm_hr": 18.2,
+    "wbc_count": 6.99,
+    "neutrophil_pct": 62.8,
+    "nlr": 11.81,
+    "age": 25,
+    "bmi": 25.7
+  },
+  {
+    "patient_id": "P014",
+    "diagnosis": "control",
+    "crp_mg_l": 0.24,
+    "esr_mm_hr": 9.2,
+    "wbc_count": 6.41,
+    "neutrophil_pct": 46.2,
+    "nlr": 5.49,
+    "age": 33,
+    "bmi": 23.2
+  },
+  {
+    "patient_id": "P015",
+    "diagnosis": "control",
+    "crp_mg_l": 0.71,
+    "esr_mm_hr": 10.2,
+    "wbc_count": 4.88,
+    "neutrophil_pct": 58.7,
+    "nlr": 6.93,
+    "age": 36,
+    "bmi": 16.8
+  },
+  {
+    "patient_id": "P016",
+    "diagnosis": "control",
+    "crp_mg_l": 2.18,
+    "esr_mm_hr": 9.7,
+    "wbc_count": 7.73,
+    "neutrophil_pct": 65.0,
+    "nlr": 14.36,
+    "age": 44,
+    "bmi": 23.4
+  },
+  {
+    "patient_id": "P017",
+    "diagnosis": "control",
+    "crp_mg_l": 0.27,
+    "esr_mm_hr": 3.9,
+    "wbc_count": 4.9,
+    "neutrophil_pct": 55.4,
+    "nlr": 6.09,
+    "age": 33,
+    "bmi": 28.8
+  },
+  {
+    "patient_id": "P018",
+    "diagnosis": "control",
+    "crp_mg_l": 1.22,
+    "esr_mm_hr": 9.0,
+    "wbc_count": 7.26,
+    "neutrophil_pct": 64.6,
+    "nlr": 13.26,
+    "age": 26,
+    "bmi": 29.9
+  },
+  {
+    "patient_id": "P019",
+    "diagnosis": "control",
+    "crp_mg_l": 2.17,
+    "esr_mm_hr": 16.4,
+    "wbc_count": 6.25,
+    "neutrophil_pct": 58.3,
+    "nlr": 8.76,
+    "age": 43,
+    "bmi": 26.1
+  },
+  {
+    "patient_id": "P020",
+    "diagnosis": "control",
+    "crp_mg_l": 5.26,
+    "esr_mm_hr": 12.2,
+    "wbc_count": 6.56,
+    "neutrophil_pct": 72.4,
+    "nlr": 17.17,
+    "age": 26,
+    "bmi": 28.0
+  }
+]
