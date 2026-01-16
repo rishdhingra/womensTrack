@@ -477,7 +477,7 @@ if __name__ == '__main__':
     print(f"Upload folder: {UPLOAD_FOLDER}")
     print(f"Output folder: {OUTPUT_FOLDER}")
     print("=" * 60)
-    print("\nStarting server on http://localhost:5000")
+    print("\nStarting server on http://localhost:5001")
     print("API Endpoints:")
     print("  GET  /api/health - Health check")
     print("  POST /api/upload - Upload imaging file")
@@ -486,4 +486,4 @@ if __name__ == '__main__':
     print("  GET  /api/model-info - Get model metadata")
     print("=" * 60)
     
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host='0.0.0.0', port=5001, debug=True)
