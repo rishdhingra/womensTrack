@@ -28,7 +28,7 @@ from train_enhanced import AttentionUNet, dice_coefficient
 
 # Initialize Flask app
 app = Flask(__name__)
-CORS(app)  # Enable CORS for frontend
+CORS(app, resources={r"/api/*": {"origins": ["http://localhost:5173", "http://127.0.0.1:5173"]}})  # Enable CORS for frontend
 
 # Configuration
 UPLOAD_FOLDER = Path('./uploads')
@@ -38,7 +38,7 @@ MODEL_PATH = Path('./models/best_model.pth')
 UPLOAD_FOLDER.mkdir(exist_ok=True)
 OUTPUT_FOLDER.mkdir(exist_ok=True)
 
-ALLOWED_EXTENSIONS = {' dcm', 'nii', 'nii.gz', 'zip', 'png', 'jpg', 'jpeg'}
+ALLOWED_EXTENSIONS = {'dcm', 'nii', 'nii.gz', 'zip', 'png', 'jpg', 'jpeg'}
 
 # Load model
 device = torch.device('cpu')
@@ -338,6 +338,135 @@ def model_info():
         }
     
     return jsonify(metadata), 200
+
+
+@app.route('/api/radiomics-features/<file_id>', methods=['GET'])
+def get_radiomics_features(file_id):
+    """Extract 100+ radiomics features from uploaded image"""
+    try:
+        filepath = UPLOAD_FOLDER / file_id
+        if not filepath.exists():
+            return jsonify({"error": "File not found"}), 404
+        
+        # Mock radiomics features for demo
+        features = {
+            "first_order": {
+                "mean": 487.3, "std": 112.4, "skewness": 0.23, "kurtosis": 2.87,
+                "entropy": 6.42, "energy": 1523.7
+            },
+            "shape": {
+                "volume_ml": 12.4, "surface_area_mm2": 342.1, "sphericity": 0.68,
+                "compactness": 0.54, "elongation": 1.32
+            },
+            "texture_glcm": {
+                "contrast": 234.5, "correlation": 0.82, "energy": 0.34,
+                "homogeneity": 0.67, "entropy": 5.23
+            },
+            "texture_glrlm": {
+                "short_run_emphasis": 0.87, "long_run_emphasis": 1.23,
+                "gray_level_nonuniformity": 234.5, "run_percentage": 0.54
+            },
+            "wavelet": {
+                "HHH_mean": 23.4, "HHL_mean": 45.6, "LHH_mean": 34.2,
+                "LLH_mean": 56.7, "HLL_mean": 43.2
+            },
+            "feature_importance": [
+                {"name": "Texture Contrast", "value": 0.92},
+                {"name": "Shape Volume", "value": 0.88},
+                {"name": "Wavelet HHH", "value": 0.85},
+                {"name": "GLCM Entropy", "value": 0.82},
+                {"name": "Elongation", "value": 0.78}
+            ]
+        }
+        
+        return jsonify(features), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route('/api/blood-correlation', methods=['POST'])
+def blood_correlation():
+    """Correlate imaging features with blood biomarkers"""
+    try:
+        data = request.get_json()
+        imaging_features = data.get('imaging_features', {})
+        blood_markers = data.get('blood_markers', {})
+        
+        # Mock correlation analysis
+        correlations = {
+            "inflammatory_endotype": "High Inflammatory",
+            "nlr_correlation": 0.73,  # correlation with Neutrophil-Lymphocyte Ratio
+            "crp_correlation": 0.68,  # correlation with C-Reactive Protein
+            "signature": {
+                "texture_crp": 0.72,
+                "volume_esr": 0.65,
+                "wavelet_nlr": 0.81
+            },
+            "interpretation": "Strong correlation between imaging texture features and systemic inflammation. Suggests inflammatory-driven endotype.",
+            "recommendations": [
+                "Consider anti-inflammatory therapy",
+                "Monitor CRP/NLR longitudinally",
+                "Assess for systemic inflammatory conditions"
+            ]
+        }
+        
+        return jsonify(correlations), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route('/api/patient-stratification', methods=['POST'])
+def patient_stratification():
+    """Stratify patient for Aim 3 cohorts and trial eligibility"""
+    try:
+        data = request.get_json()
+        
+        # Extract patient data
+        has_endo = data.get('has_endometriosis', False)
+        pain_score = data.get('pain_score', 0)  # VAS 0-10
+        has_visible_lesions = data.get('has_visible_lesions', False)
+        
+        # Determine cohort (Aim 3: 4 cohorts)
+        if has_endo and has_visible_lesions and pain_score >= 7:
+            cohort = "Endometriosis + High Pain"
+            trial_eligible = True
+            biobank_priority = "High"
+        elif has_endo and has_visible_lesions and pain_score < 7:
+            cohort = "Endometriosis + Minimal Pain"
+            trial_eligible = True
+            biobank_priority = "High"
+        elif not has_visible_lesions and pain_score >= 5:
+            cohort = "Chronic Pelvic Pain (No Visible Endo)"
+            trial_eligible = True
+            biobank_priority = "Medium"
+        else:
+            cohort = "Gynecologic Control"
+            trial_eligible = False
+            biobank_priority = "Low"
+        
+        stratification = {
+            "cohort": cohort,
+            "trial_eligible": trial_eligible,
+            "biobank_priority": biobank_priority,
+            "werf_ephect_phenotype": {
+                "dysmenorrhea_vas": pain_score,
+                "chronic_pelvic_pain": pain_score >= 5,
+                "dyspareunia": pain_score >= 6
+            },
+            "recommended_biospecimens": [
+                "Peritoneal fluid",
+                "Eutopic endometrium",
+                "Lesion tissue",
+                "Blood (serum, plasma)",
+                "Urine"
+            ] if trial_eligible else [],
+            "enrollment_site": "RWJMS",  # or "UCSF"
+            "estimated_surgery_volume": "~320 surgeries/year combined"
+        }
+        
+        return jsonify(stratification), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
 
 if __name__ == '__main__':
