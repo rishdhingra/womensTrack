@@ -1,6 +1,6 @@
 import { useState, useMemo } from 'react';
 import { useSearchParams, useNavigate } from 'react-router-dom';
-import { User, Activity, Microscope, Flask, Syringe, Calendar } from 'lucide-react';
+import { User, Activity, Microscope, Beaker, Syringe, Calendar } from 'lucide-react';
 import Sidebar from '../components/Sidebar';
 import Card from '../components/Card';
 import Button from '../components/Button';
@@ -216,7 +216,7 @@ export default function Dashboard() {
       {/* Blood Biomarkers (Aim 2 - Drivers) */}
       <Card>
         <h3 className="text-xl font-serif font-bold text-gray-900 mb-4 flex items-center gap-2">
-          <Flask size={20} className="text-lavender-600" />
+          <Beaker size={20} className="text-lavender-600" />
           Blood Biomarkers (Aim 2: Drivers)
         </h3>
         
@@ -484,7 +484,7 @@ export default function Dashboard() {
               {[
                 { id: 'overview', label: 'Overview', icon: Activity },
                 { id: 'surgical-planning', label: 'Surgical Planning', icon: Microscope },
-                { id: 'radiomics', label: 'Radiomics', icon: Flask },
+                { id: 'radiomics', label: 'Radiomics', icon: Beaker },
                 { id: 'biobank', label: 'Biobank', icon: Syringe },
               ].map((tabItem) => {
                 const Icon = tabItem.icon;
