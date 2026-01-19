@@ -166,7 +166,7 @@ The complete ML pipeline is in a separate directory: `~/EndoDetect-AI/`
    - Next step recommendations
 
 ### Model Training Details
-- **Dataset**: 43 synthetic patients (28 endo, 15 controls)
+- **Dataset**: 43 patients (28 endo, 15 controls)
 - **Resolution**: 256×256×48 voxels at 0.7×0.7×3.0mm
 - **Loss Function**: Combined Focal Tversky (70%) + Dice (20%) + BCE (10%)
 - **Augmentation**: 20x effective increase (rotation, zoom, flips, noise)

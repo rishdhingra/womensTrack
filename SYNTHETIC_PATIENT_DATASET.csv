@@ -1,0 +1,44 @@
+Patient_ID,Age,BMI,Race,Diagnosis,DIE_Present,Ovarian_Endometrioma_Present,Superficial_Lesions_Present,MRI_Date,MRI_Field_Strength_T,MRI_Slice_Thickness_mm,MRI_Resolution_mm,TVUS_Available,TVUS_Date,CRP_mg_L,ESR_mm_hr,WBC_count_K_uL,Neutrophil_percent,Lymphocyte_percent,NLR_Ratio,Pain_VAS_0_10,Dysmenorrhea_Severity,Previous_Surgery,Dataset_Split,Ground_Truth_Label,Model_Prediction,Confidence_Score,Dice_Score_Segmentation,Lesion_Volume_mL,Sphericity_Index,GLCM_Contrast,First_Order_Entropy
+P001,28,24.3,White,Deep Infiltrating Endometriosis,1,0,0,2024-03-15,3.0,3.0,0.7x0.7,Yes,2024-03-16,12.5,28,8.2,68.5,22.1,3.1,8,Severe,No,Training,DIE,DIE,0.89,0.83,4.2,0.42,145.3,7.82
+P002,32,26.1,Hispanic,Ovarian Endometrioma,0,1,0,2024-04-02,1.5,3.0,0.7x0.7,Yes,2024-04-03,8.1,18,7.5,62.3,28.4,2.2,6,Moderate,No,Training,Ovarian,Ovarian,0.76,0.79,8.5,0.68,98.7,6.45
+P003,25,22.8,Asian,Healthy Control,0,0,0,2024-03-20,3.0,3.0,0.7x0.7,No,NA,2.3,8,6.8,58.2,32.1,1.8,1,None,No,Training,Healthy,Healthy,0.92,NA,0,NA,42.1,4.23
+P004,30,27.5,Black,Deep Infiltrating Endometriosis,1,0,0,2024-05-11,1.5,3.0,0.7x0.7,Yes,2024-05-12,15.2,34,9.1,72.8,19.5,3.7,9,Severe,Yes,Training,DIE,DIE,0.91,0.85,5.8,0.38,167.2,8.15
+P005,27,23.4,White,Superficial Peritoneal Lesions,0,0,1,2024-04-18,3.0,3.0,0.7x0.7,Yes,2024-04-19,6.7,15,7.2,60.5,29.8,2.0,5,Mild,No,Training,Superficial,Superficial,0.68,0.74,1.2,0.55,76.4,5.89
+P006,34,29.2,Hispanic,Ovarian Endometrioma,0,1,0,2024-06-03,3.0,3.0,0.7x0.7,No,NA,9.4,22,8.0,65.1,26.3,2.5,7,Moderate,No,Training,Ovarian,Ovarian,0.81,0.77,6.3,0.71,112.5,6.78
+P007,29,25.1,White,Healthy Control,0,0,0,2024-05-22,1.5,3.0,0.7x0.7,Yes,2024-05-23,1.8,6,6.5,56.8,33.5,1.7,0,None,No,Training,Healthy,Healthy,0.88,NA,0,NA,38.9,4.01
+P008,31,26.8,Asian,Deep Infiltrating Endometriosis,1,1,0,2024-07-01,3.0,3.0,0.7x0.7,Yes,2024-07-02,13.8,30,8.7,70.2,21.3,3.3,8,Severe,No,Validation,DIE,DIE,0.87,0.81,4.9,0.45,152.8,7.94
+P009,26,24.7,Black,Ovarian Endometrioma,0,1,0,2024-06-15,1.5,3.0,0.7x0.7,No,NA,7.3,19,7.4,61.8,28.9,2.1,6,Moderate,No,Validation,Ovarian,Ovarian,0.74,0.76,7.1,0.66,105.3,6.52
+P010,33,28.3,White,Healthy Control,0,0,0,2024-07-10,3.0,3.0,0.7x0.7,Yes,2024-07-11,2.1,7,6.9,57.5,32.8,1.8,2,None,No,Validation,Healthy,Healthy,0.90,NA,0,NA,40.5,4.18
+P011,28,25.9,Hispanic,Superficial Peritoneal Lesions,0,0,1,2024-08-05,1.5,3.0,0.7x0.7,Yes,2024-08-06,5.9,13,7.1,59.2,30.5,1.9,4,Mild,No,Validation,Superficial,Superficial,0.65,0.71,0.9,0.58,68.7,5.63
+P012,35,30.1,White,Deep Infiltrating Endometriosis,1,0,1,2024-08-20,3.0,3.0,0.7x0.7,Yes,2024-08-21,14.6,32,8.9,71.5,20.8,3.4,9,Severe,Yes,Test,DIE,DIE,0.90,0.84,5.3,0.40,159.4,8.07
+P013,27,23.8,Asian,Ovarian Endometrioma,0,1,0,2024-09-02,1.5,3.0,0.7x0.7,No,NA,8.8,20,7.8,63.7,27.1,2.4,6,Moderate,No,Test,Ovarian,Ovarian,0.79,0.78,8.9,0.69,108.9,6.61
+P014,30,26.5,Black,Healthy Control,0,0,0,2024-09-15,3.0,3.0,0.7x0.7,Yes,2024-09-16,1.9,9,6.7,58.9,32.4,1.8,1,None,No,Test,Healthy,Healthy,0.89,NA,0,NA,41.2,4.15
+P015,29,24.2,White,Superficial Peritoneal Lesions,0,0,1,2024-10-01,1.5,3.0,0.7x0.7,Yes,2024-10-02,6.2,14,7.3,60.8,29.2,2.1,5,Mild,No,Test,Superficial,Ovarian,0.62,0.69,1.5,0.52,72.1,5.72
+P016,32,27.4,Hispanic,Deep Infiltrating Endometriosis,1,0,0,2024-10-18,3.0,3.0,0.7x0.7,Yes,2024-10-19,11.9,27,8.4,69.3,21.8,3.2,8,Severe,No,Training,DIE,DIE,0.88,0.82,4.6,0.43,148.6,7.88
+P017,26,23.1,Asian,Healthy Control,0,0,0,2024-11-05,1.5,3.0,0.7x0.7,No,NA,2.4,8,6.6,57.1,33.2,1.7,0,None,No,Training,Healthy,Healthy,0.91,NA,0,NA,39.7,4.09
+P018,31,28.7,White,Ovarian Endometrioma,0,1,0,2024-11-20,3.0,3.0,0.7x0.7,Yes,2024-11-21,9.1,21,7.9,64.5,26.8,2.4,7,Moderate,No,Training,Ovarian,Ovarian,0.77,0.77,7.8,0.70,110.2,6.69
+P019,28,25.6,Black,Deep Infiltrating Endometriosis,1,1,0,2024-12-03,3.0,3.0,0.7x0.7,Yes,2024-12-04,13.2,29,8.6,70.8,21.1,3.4,8,Severe,Yes,Training,DIE,DIE,0.86,0.80,5.1,0.44,154.7,7.96
+P020,33,29.8,Hispanic,Superficial Peritoneal Lesions,0,0,1,2024-12-15,1.5,3.0,0.7x0.7,No,NA,6.5,16,7.2,61.3,28.6,2.1,4,Mild,No,Training,Superficial,Superficial,0.70,0.73,1.1,0.56,74.8,5.81
+P021,27,24.9,White,Healthy Control,0,0,0,2025-01-08,3.0,3.0,0.7x0.7,Yes,2025-01-09,2.0,7,6.8,58.3,32.5,1.8,1,None,No,Training,Healthy,Healthy,0.90,NA,0,NA,40.8,4.12
+P022,30,26.3,Asian,Deep Infiltrating Endometriosis,1,0,0,2025-01-22,1.5,3.0,0.7x0.7,Yes,2025-01-23,12.7,28,8.3,69.7,21.5,3.2,9,Severe,No,Validation,DIE,DIE,0.89,0.83,4.8,0.41,150.9,7.91
+P023,29,25.4,Black,Ovarian Endometrioma,0,1,0,2025-02-05,3.0,3.0,0.7x0.7,No,NA,8.5,19,7.6,62.9,27.8,2.3,6,Moderate,No,Validation,Ovarian,Ovarian,0.75,0.76,7.5,0.67,107.1,6.58
+P024,34,30.5,White,Healthy Control,0,0,0,2025-02-18,3.0,3.0,0.7x0.7,Yes,2025-02-19,2.2,8,6.9,57.8,32.7,1.8,2,None,No,Validation,Healthy,Healthy,0.89,NA,0,NA,41.0,4.14
+P025,28,24.6,Hispanic,Superficial Peritoneal Lesions,0,0,1,2025-03-01,1.5,3.0,0.7x0.7,Yes,2025-03-02,6.0,15,7.1,60.1,30.1,2.0,5,Mild,No,Test,Superficial,Superficial,0.67,0.72,1.0,0.57,70.3,5.67
+P026,31,27.1,Asian,Deep Infiltrating Endometriosis,1,0,1,2025-03-15,3.0,3.0,0.7x0.7,Yes,2025-03-16,14.1,31,8.8,71.2,20.9,3.4,9,Severe,Yes,Test,DIE,DIE,0.88,0.82,5.5,0.39,161.3,8.09
+P027,26,23.5,White,Ovarian Endometrioma,0,1,0,2025-04-02,1.5,3.0,0.7x0.7,No,NA,8.9,21,7.7,63.2,27.5,2.3,7,Moderate,No,Test,Ovarian,Ovarian,0.78,0.77,8.2,0.68,109.6,6.64
+P028,32,28.9,Black,Healthy Control,0,0,0,2025-04-18,3.0,3.0,0.7x0.7,Yes,2025-04-19,2.1,9,6.8,58.6,32.2,1.8,1,None,No,Training,Healthy,Healthy,0.91,NA,0,NA,40.3,4.11
+P029,27,25.2,Hispanic,Deep Infiltrating Endometriosis,1,0,0,2025-05-05,3.0,3.0,0.7x0.7,Yes,2025-05-06,13.5,29,8.5,70.5,21.2,3.3,8,Severe,No,Training,DIE,DIE,0.87,0.81,4.7,0.42,153.1,7.93
+P030,29,26.7,Asian,Superficial Peritoneal Lesions,0,0,1,2025-05-20,1.5,3.0,0.7x0.7,No,NA,6.3,14,7.2,60.5,29.5,2.1,4,Mild,No,Training,Superficial,Superficial,0.69,0.73,1.3,0.55,73.5,5.78
+P031,35,31.2,White,Deep Infiltrating Endometriosis,1,1,0,2025-06-03,3.0,3.0,0.7x0.7,Yes,2025-06-04,15.7,35,9.3,73.1,19.2,3.8,9,Severe,Yes,Training,DIE,DIE,0.92,0.86,6.1,0.37,169.8,8.21
+P032,28,24.8,Black,Ovarian Endometrioma,0,1,0,2025-06-18,1.5,3.0,0.7x0.7,Yes,2025-06-19,9.3,22,8.1,65.8,25.9,2.5,7,Moderate,No,Training,Ovarian,Ovarian,0.80,0.78,8.6,0.71,113.7,6.82
+P033,30,26.1,Hispanic,Healthy Control,0,0,0,2025-07-01,3.0,3.0,0.7x0.7,No,NA,1.9,7,6.7,57.9,32.6,1.8,0,None,No,Training,Healthy,Healthy,0.88,NA,0,NA,40.1,4.10
+P034,27,23.9,Asian,Deep Infiltrating Endometriosis,1,0,0,2025-07-15,3.0,3.0,0.7x0.7,Yes,2025-07-16,12.3,27,8.2,68.9,21.7,3.2,8,Severe,No,Validation,DIE,DIE,0.86,0.80,4.5,0.43,147.4,7.85
+P035,31,27.6,White,Ovarian Endometrioma,0,1,0,2025-08-02,1.5,3.0,0.7x0.7,Yes,2025-08-03,8.7,20,7.7,63.5,27.3,2.3,6,Moderate,No,Validation,Ovarian,Ovarian,0.76,0.76,7.6,0.69,108.3,6.60
+P036,33,29.4,Black,Healthy Control,0,0,0,2025-08-18,3.0,3.0,0.7x0.7,No,NA,2.3,8,6.9,58.1,32.4,1.8,2,None,No,Validation,Healthy,Healthy,0.90,NA,0,NA,40.6,4.13
+P037,28,25.3,Hispanic,Superficial Peritoneal Lesions,0,0,1,2025-09-05,1.5,3.0,0.7x0.7,Yes,2025-09-06,6.1,15,7.1,60.3,29.9,2.0,5,Mild,No,Test,Superficial,Healthy,0.58,0.70,0.8,0.59,69.1,5.65
+P038,29,24.5,Asian,Deep Infiltrating Endometriosis,1,0,1,2025-09-20,3.0,3.0,0.7x0.7,Yes,2025-09-21,14.3,31,8.9,71.8,20.6,3.5,9,Severe,Yes,Test,DIE,DIE,0.91,0.84,5.6,0.38,163.5,8.11
+P039,32,28.2,White,Ovarian Endometrioma,0,1,0,2025-10-05,1.5,3.0,0.7x0.7,No,NA,9.0,21,7.9,64.1,27.0,2.4,7,Moderate,No,Test,Ovarian,Ovarian,0.79,0.78,8.4,0.70,111.4,6.72
+P040,26,23.7,Black,Healthy Control,0,0,0,2025-10-18,3.0,3.0,0.7x0.7,Yes,2025-10-19,2.0,8,6.8,58.2,32.5,1.8,1,None,No,Training,Healthy,Healthy,0.89,NA,0,NA,40.4,4.12
+P041,30,26.9,Hispanic,Deep Infiltrating Endometriosis,1,0,0,2025-11-02,3.0,3.0,0.7x0.7,Yes,2025-11-03,13.1,28,8.4,70.1,21.4,3.3,8,Severe,No,Training,DIE,DIE,0.88,0.82,4.9,0.41,151.7,7.92
+P042,28,25.1,Asian,Superficial Peritoneal Lesions,0,0,1,2025-11-18,1.5,3.0,0.7x0.7,No,NA,6.4,15,7.2,60.7,29.3,2.1,4,Mild,No,Training,Superficial,Superficial,0.68,0.72,1.2,0.56,72.9,5.76
+P043,34,30.8,White,Healthy Control,0,0,0,2025-12-01,3.0,3.0,0.7x0.7,Yes,2025-12-02,2.2,9,6.9,57.7,32.6,1.8,2,None,No,Training,Healthy,Healthy,0.90,NA,0,NA,40.9,4.14
