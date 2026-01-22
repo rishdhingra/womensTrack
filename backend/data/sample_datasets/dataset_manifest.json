@@ -1,0 +1,41 @@
+{
+  "datasets": {
+    "mri_samples": {
+      "source": "UT-EndoMRI (synthetic sample)",
+      "n_patients": 5,
+      "modality": "T2-weighted MRI",
+      "has_annotations": true,
+      "location": "mri_samples"
+    },
+    "blood_markers": {
+      "source": "NHANES (synthetic sample)",
+      "n_patients": 20,
+      "markers": [
+        "CRP",
+        "ESR",
+        "CBC",
+        "NLR"
+      ],
+      "location": "blood_markers.json"
+    },
+    "clinical_phenotypes": {
+      "source": "WERF EPHect (synthetic sample)",
+      "n_patients": 10,
+      "features": [
+        "pain scores",
+        "QoL",
+        "infertility",
+        "staging"
+      ],
+      "location": "clinical_phenotypes.json"
+    }
+  },
+  "note": "These are synthetic samples for demonstration. Real validation uses actual public datasets.",
+  "real_datasets_for_validation": [
+    "UT-EndoMRI (51 patients, Zenodo)",
+    "AIUM/Balica TVUS dataset",
+    "nnU-Net DIE segmentation dataset",
+    "NHANES inflammatory markers",
+    "UK Biobank reproductive health subset"
+  ]
+}

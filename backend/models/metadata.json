@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-01-14T18:30:24.592198",
+  "best_dice": 0.38722774318921144,
+  "best_dice_percentage": 38.72277431892115,
+  "epochs_trained": 17,
+  "total_epochs": 50,
+  "dataset_size": 5,
+  "device": "cpu",
+  "architecture": "Attention U-Net",
+  "augmentation": "rotation, zoom, shift, flip",
+  "loss_function": "Combined Focal Tversky + Dice"
+}

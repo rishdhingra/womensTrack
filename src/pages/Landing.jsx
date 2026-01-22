@@ -387,6 +387,143 @@ export default function Landing() {
         </div>
       </Section>
 
+      {/* D³ Framework Section */}
+      <Section className="bg-white">
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.6 }}
+        >
+          <SectionTitle
+            title="The D³ Framework"
+            subtitle="Diagnostics • Drivers • Development"
+          />
+        </motion.div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.5 }}
+          >
+            <Card className="h-full">
+              <div className="flex items-center mb-4">
+                <div className="w-12 h-12 bg-primary-500 rounded-full flex items-center justify-center text-white font-bold text-xl mr-4">1</div>
+                <h3 className="text-xl font-serif font-bold text-gray-900">Diagnostics</h3>
+              </div>
+              <p className="text-base text-gray-600 mb-4">
+                Multimodal ML model using ~400 patients for non-invasive diagnosis and phenotype classification (DIE, ovarian, superficial).
+              </p>
+              <p className="text-sm text-primary-700 font-semibold">Aim 1: Radiomics-Based Diagnosis</p>
+            </Card>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.5, delay: 0.1 }}
+          >
+            <Card className="h-full">
+              <div className="flex items-center mb-4">
+                <div className="w-12 h-12 bg-lavender-500 rounded-full flex items-center justify-center text-white font-bold text-xl mr-4">2</div>
+                <h3 className="text-xl font-serif font-bold text-gray-900">Drivers</h3>
+              </div>
+              <p className="text-base text-gray-600 mb-4">
+                Explainable AI to identify inflammatory and neuroimmune drivers of pain, systemic inflammation, and recurrence.
+              </p>
+              <p className="text-sm text-lavender-700 font-semibold">Aim 2: Inflammatory Endotypes</p>
+            </Card>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+          >
+            <Card className="h-full">
+              <div className="flex items-center mb-4">
+                <div className="w-12 h-12 bg-primary-600 rounded-full flex items-center justify-center text-white font-bold text-xl mr-4">3</div>
+                <h3 className="text-xl font-serif font-bold text-gray-900">Development</h3>
+              </div>
+              <p className="text-base text-gray-600 mb-4">
+                Prospective validation (~100 patients) and biobank creation for non-hormonal therapeutic development.
+              </p>
+              <p className="text-sm text-primary-700 font-semibold">Aim 3: Biobank & Validation</p>
+            </Card>
+          </motion.div>
+        </div>
+      </Section>
+
+      {/* Team Section */}
+      <Section className="gradient-bg">
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.6 }}
+        >
+          <SectionTitle
+            title="Research Team"
+            subtitle="Rutgers Robert Wood Johnson Medical School"
+          />
+        </motion.div>
+        <div className="max-w-6xl mx-auto">
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.5 }}
+          >
+            <Card className="mb-8">
+              <h4 className="text-lg font-serif font-bold text-primary-700 mb-4">Principal Investigator</h4>
+              <p className="text-base text-gray-900 font-semibold">Jessica Opoku-Anane, MD, MS</p>
+              <p className="text-sm text-gray-600">Minimally Invasive Gynecologic Surgery & Reproductive Endocrinology</p>
+            </Card>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.5, delay: 0.1 }}
+          >
+            <Card>
+              <h4 className="text-lg font-serif font-bold text-primary-700 mb-4">Co-Investigators</h4>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                  <p className="text-base text-gray-900 font-semibold">Archana Pradhan, MD, MPH</p>
+                  <p className="text-sm text-gray-600">Interim Chair, Dept of OBGYN&RS; Associate Dean for Clinical Education</p>
+                </div>
+                <div>
+                  <p className="text-base text-gray-900 font-semibold">Naveena Yanamala, MS, PhD</p>
+                  <p className="text-sm text-gray-600">Section Chief of Clinical Research & AI Innovation; Director of Data Science and ML Research</p>
+                </div>
+                <div>
+                  <p className="text-base text-gray-900 font-semibold">Susan Egan, BS, RDMS</p>
+                  <p className="text-sm text-gray-600">Chief Gynecologic Ultrasonographer; Co-author of SRU Consensus on Pelvic US for Endometriosis</p>
+                </div>
+                <div>
+                  <p className="text-base text-gray-900 font-semibold">Alopi Patel, MD</p>
+                  <p className="text-sm text-gray-600">Interventional Pain Management, Associate Professor, Dept of OBGYN&RS and Anesthesia</p>
+                </div>
+                <div>
+                  <p className="text-base text-gray-900 font-semibold">Traci Ito, MD</p>
+                  <p className="text-sm text-gray-600">Minimally Invasive Gynecologic Surgery, Associate Professor, UCSF</p>
+                </div>
+                <div>
+                  <p className="text-base text-gray-900 font-semibold">Azra Bano</p>
+                  <p className="text-sm text-gray-600">Computer Engineering & Data Science, Rutgers School of Engineering</p>
+                </div>
+                <div>
+                  <p className="text-base text-gray-900 font-semibold">Rishabh Dhingra</p>
+                  <p className="text-sm text-gray-600">Computer Science, Rutgers School of Arts & Sciences</p>
+                </div>
+              </div>
+            </Card>
+          </motion.div>
+        </div>
+      </Section>
+
       {/* Impact Section */}
       <Section id="impact" className="bg-white">
         <motion.div

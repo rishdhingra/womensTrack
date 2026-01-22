@@ -1,0 +1,65 @@
+{
+  "phenotype": "Advanced DIE with Endometrioma",
+  "confidence": 85,
+  "risk": "High",
+  "complexity": "High",
+  "severity": "Severe",
+  "lesion_percentage": 43.9,
+  "organ_involvement": [
+    {
+      "name": "Ovary",
+      "involvement": 100,
+      "side": "bilateral"
+    },
+    {
+      "name": "Uterosacral Ligaments",
+      "involvement": 100,
+      "side": "bilateral"
+    },
+    {
+      "name": "Rectovaginal Septum",
+      "involvement": 100,
+      "side": "central"
+    }
+  ],
+  "recommendations": [
+    "Multidisciplinary team recommended (GYN, colorectal, urology)",
+    "Bowel resection may be required",
+    "Pre-operative MRI with contrast for detailed mapping",
+    "Estimated OR time: 3-4 hours",
+    "Consider fertility counseling if applicable"
+  ],
+  "surgical_roadmap": {
+    "phenotype": "Advanced DIE with Endometrioma",
+    "complexity": "High",
+    "severity": "Severe",
+    "confidence": 85,
+    "lesion_percentage": 43.9,
+    "organ_involvement": [
+      {
+        "name": "Ovary",
+        "involvement": 100,
+        "side": "bilateral"
+      },
+      {
+        "name": "Uterosacral Ligaments",
+        "involvement": 100,
+        "side": "bilateral"
+      },
+      {
+        "name": "Rectovaginal Septum",
+        "involvement": 100,
+        "side": "central"
+      }
+    ],
+    "recommendations": [
+      "Multidisciplinary team recommended (GYN, colorectal, urology)",
+      "Bowel resection may be required",
+      "Pre-operative MRI with contrast for detailed mapping",
+      "Estimated OR time: 3-4 hours",
+      "Consider fertility counseling if applicable"
+    ],
+    "generated_at": "2026-01-16T16:39:55.646897"
+  },
+  "generated_at": "2026-01-16T16:39:55.646897"
+}

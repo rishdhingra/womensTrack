@@ -1,0 +1,122 @@
+[
+  {
+    "patient_id": "P001",
+    "dysmenorrhea_vas": 6,
+    "chronic_pelvic_pain_vas": 7,
+    "dyspareunia_vas": 4,
+    "pain_descriptor": "dull",
+    "pain_location": "lower abdomen",
+    "infertility": false,
+    "previous_surgery": false,
+    "werf_stage": "IV",
+    "qol_score": 55
+  },
+  {
+    "patient_id": "P002",
+    "dysmenorrhea_vas": 6,
+    "chronic_pelvic_pain_vas": 8,
+    "dyspareunia_vas": 5,
+    "pain_descriptor": "sharp",
+    "pain_location": "lower abdomen",
+    "infertility": false,
+    "previous_surgery": false,
+    "werf_stage": "II",
+    "qol_score": 56
+  },
+  {
+    "patient_id": "P003",
+    "dysmenorrhea_vas": 7,
+    "chronic_pelvic_pain_vas": 7,
+    "dyspareunia_vas": 5,
+    "pain_descriptor": "cramping",
+    "pain_location": "lower abdomen",
+    "infertility": false,
+    "previous_surgery": false,
+    "werf_stage": "IV",
+    "qol_score": 46
+  },
+  {
+    "patient_id": "P004",
+    "dysmenorrhea_vas": 7,
+    "chronic_pelvic_pain_vas": 5,
+    "dyspareunia_vas": 6,
+    "pain_descriptor": "sharp",
+    "pain_location": "lower abdomen",
+    "infertility": false,
+    "previous_surgery": false,
+    "werf_stage": "IV",
+    "qol_score": 37
+  },
+  {
+    "patient_id": "P005",
+    "dysmenorrhea_vas": 7,
+    "chronic_pelvic_pain_vas": 5,
+    "dyspareunia_vas": 3,
+    "pain_descriptor": "dull",
+    "pain_location": "lower back",
+    "infertility": true,
+    "previous_surgery": false,
+    "werf_stage": "IV",
+    "qol_score": 53
+  },
+  {
+    "patient_id": "P006",
+    "dysmenorrhea_vas": 9,
+    "chronic_pelvic_pain_vas": 6,
+    "dyspareunia_vas": 7,
+    "pain_descriptor": "cramping",
+    "pain_location": "lower abdomen",
+    "infertility": false,
+    "previous_surgery": false,
+    "werf_stage": "IV",
+    "qol_score": 40
+  },
+  {
+    "patient_id": "P007",
+    "dysmenorrhea_vas": 8,
+    "chronic_pelvic_pain_vas": 6,
+    "dyspareunia_vas": 6,
+    "pain_descriptor": "sharp",
+    "pain_location": "pelvic",
+    "infertility": false,
+    "previous_surgery": false,
+    "werf_stage": "II",
+    "qol_score": 56
+  },
+  {
+    "patient_id": "P008",
+    "dysmenorrhea_vas": 9,
+    "chronic_pelvic_pain_vas": 6,
+    "dyspareunia_vas": 3,
+    "pain_descriptor": "sharp",
+    "pain_location": "lower abdomen",
+    "infertility": true,
+    "previous_surgery": true,
+    "werf_stage": "II",
+    "qol_score": 49
+  },
+  {
+    "patient_id": "P009",
+    "dysmenorrhea_vas": 9,
+    "chronic_pelvic_pain_vas": 5,
+    "dyspareunia_vas": 7,
+    "pain_descriptor": "cramping",
+    "pain_location": "rectum",
+    "infertility": true,
+    "previous_surgery": false,
+    "werf_stage": "III",
+    "qol_score": 31
+  },
+  {
+    "patient_id": "P010",
+    "dysmenorrhea_vas": 7,
+    "chronic_pelvic_pain_vas": 7,
+    "dyspareunia_vas": 7,
+    "pain_descriptor": "dull",
+    "pain_location": "pelvic",
+    "infertility": false,
+    "previous_surgery": false,
+    "werf_stage": "III",
+    "qol_score": 69
+  }
+]

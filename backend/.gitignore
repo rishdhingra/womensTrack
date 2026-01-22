@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+
+# Large data files
+*.nii
+*.nii.gz
+*.dcm
+*.zip
+data/realistic_mri/*/*.nii.gz
+data/sample_datasets/*/*.nii.gz
+UT-EndoMRI.zip
+
+# Model weights (too large for git)
+models/*.pth
+models_final/*.pth
+models_production/*.pth
+
+# Logs
+*.log
+training*.log
+
+# OS
+.DS_Store
