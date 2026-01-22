@@ -1,0 +1,3826 @@
+{
+  "phenotype": "Deep Infiltrating Endometriosis (DIE) - Multiple Sites",
+  "confidence": 59,
+  "risk": "Moderate",
+  "complexity": "High",
+  "severity": "Severe",
+  "lesion_percentage": 86.19000244140625,
+  "num_lesions": 536,
+  "lesion_regions": [
+    {
+      "id": 1,
+      "size": 55222,
+      "type": "Deep Infiltrating Endometriosis (DIE)",
+      "mean_confidence": 59.2,
+      "max_confidence": 99.5
+    },
+    {
+      "id": 2,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 88.4,
+      "max_confidence": 88.4
+    },
+    {
+      "id": 3,
+      "size": 4,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.3,
+      "max_confidence": 59.0
+    },
+    {
+      "id": 4,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.0,
+      "max_confidence": 51.0
+    },
+    {
+      "id": 5,
+      "size": 2,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.6,
+      "max_confidence": 52.2
+    },
+    {
+      "id": 6,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.4,
+      "max_confidence": 53.4
+    },
+    {
+      "id": 7,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 55.7,
+      "max_confidence": 55.7
+    },
+    {
+      "id": 8,
+      "size": 5,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 56.6,
+      "max_confidence": 62.1
+    },
+    {
+      "id": 9,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 50.3,
+      "max_confidence": 50.3
+    },
+    {
+      "id": 10,
+      "size": 2,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.0,
+      "max_confidence": 54.6
+    },
+    {
+      "id": 11,
+      "size": 2,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.2,
+      "max_confidence": 52.6
+    },
+    {
+      "id": 12,
+      "size": 5,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 58.1,
+      "max_confidence": 73.2
+    },
+    {
+      "id": 13,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 57.3,
+      "max_confidence": 57.3
+    },
+    {
+      "id": 14,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 67.3,
+      "max_confidence": 67.3
+    },
+    {
+      "id": 15,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 55.2,
+      "max_confidence": 55.2
+    },
+    {
+      "id": 16,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 75.6,
+      "max_confidence": 75.6
+    },
+    {
+      "id": 17,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 57.4,
+      "max_confidence": 57.4
+    },
+    {
+      "id": 18,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.4,
+      "max_confidence": 51.4
+    },
+    {
+      "id": 19,
+      "size": 2,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 56.7,
+      "max_confidence": 58.5
+    },
+    {
+      "id": 20,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 64.2,
+      "max_confidence": 64.2
+    },
+    {
+      "id": 21,
+      "size": 2,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 60.7,
+      "max_confidence": 62.9
+    },
+    {
+      "id": 22,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 56.0,
+      "max_confidence": 56.0
+    },
+    {
+      "id": 23,
+      "size": 4,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.0,
+      "max_confidence": 54.4
+    },
+    {
+      "id": 24,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.9,
+      "max_confidence": 53.9
+    },
+    {
+      "id": 25,
+      "size": 2,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 50.7,
+      "max_confidence": 50.9
+    },
+    {
+      "id": 26,
+      "size": 3,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.8,
+      "max_confidence": 56.3
+    },
+    {
+      "id": 27,
+      "size": 2,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.8,
+      "max_confidence": 59.2
+    },
+    {
+      "id": 28,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.1,
+      "max_confidence": 51.1
+    },
+    {
+      "id": 29,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.4,
+      "max_confidence": 52.4
+    },
+    {
+      "id": 30,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 55.3,
+      "max_confidence": 55.3
+    },
+    {
+      "id": 31,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 55.2,
+      "max_confidence": 55.2
+    },
+    {
+      "id": 32,
+      "size": 15,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 58.3,
+      "max_confidence": 69.9
+    },
+    {
+      "id": 33,
+      "size": 15,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.9,
+      "max_confidence": 60.5
+    },
+    {
+      "id": 34,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 57.7,
+      "max_confidence": 57.7
+    },
+    {
+      "id": 35,
+      "size": 3,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.7,
+      "max_confidence": 57.5
+    },
+    {
+      "id": 36,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.8,
+      "max_confidence": 51.8
+    },
+    {
+      "id": 37,
+      "size": 2,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 55.1,
+      "max_confidence": 59.3
+    },
+    {
+      "id": 38,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 55.8,
+      "max_confidence": 55.8
+    },
+    {
+      "id": 39,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.7,
+      "max_confidence": 53.7
+    },
+    {
+      "id": 40,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 50.6,
+      "max_confidence": 50.6
+    },
+    {
+      "id": 41,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 59.1,
+      "max_confidence": 59.1
+    },
+    {
+      "id": 42,
+      "size": 2,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 50.2,
+      "max_confidence": 50.3
+    },
+    {
+      "id": 43,
+      "size": 3,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.7,
+      "max_confidence": 54.1
+    },
+    {
+      "id": 44,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 56.9,
+      "max_confidence": 56.9
+    },
+    {
+      "id": 45,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 50.9,
+      "max_confidence": 50.9
+    },
+    {
+      "id": 46,
+      "size": 2,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.0,
+      "max_confidence": 55.7
+    },
+    {
+      "id": 47,
+      "size": 13,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.1,
+      "max_confidence": 57.9
+    },
+    {
+      "id": 48,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 58.9,
+      "max_confidence": 58.9
+    },
+    {
+      "id": 49,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.1,
+      "max_confidence": 52.1
+    },
+    {
+      "id": 50,
+      "size": 2,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.4,
+      "max_confidence": 53.2
+    },
+    {
+      "id": 51,
+      "size": 2,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.9,
+      "max_confidence": 56.0
+    },
+    {
+      "id": 52,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.9,
+      "max_confidence": 51.9
+    },
+    {
+      "id": 53,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.2,
+      "max_confidence": 54.2
+    },
+    {
+      "id": 54,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 57.3,
+      "max_confidence": 57.3
+    },
+    {
+      "id": 55,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.3,
+      "max_confidence": 53.3
+    },
+    {
+      "id": 56,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 59.2,
+      "max_confidence": 59.2
+    },
+    {
+      "id": 57,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.6,
+      "max_confidence": 51.6
+    },
+    {
+      "id": 58,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 58.5,
+      "max_confidence": 58.5
+    },
+    {
+      "id": 59,
+      "size": 22,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.3,
+      "max_confidence": 62.3
+    },
+    {
+      "id": 60,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 50.9,
+      "max_confidence": 50.9
+    },
+    {
+      "id": 61,
+      "size": 3,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.7,
+      "max_confidence": 57.1
+    },
+    {
+      "id": 62,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.7,
+      "max_confidence": 52.7
+    },
+    {
+      "id": 63,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.0,
+      "max_confidence": 51.0
+    },
+    {
+      "id": 64,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.8,
+      "max_confidence": 51.8
+    },
+    {
+      "id": 65,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 57.8,
+      "max_confidence": 57.8
+    },
+    {
+      "id": 66,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.6,
+      "max_confidence": 52.6
+    },
+    {
+      "id": 67,
+      "size": 2,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.6,
+      "max_confidence": 52.8
+    },
+    {
+      "id": 68,
+      "size": 2,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.6,
+      "max_confidence": 52.3
+    },
+    {
+      "id": 69,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 71.3,
+      "max_confidence": 71.3
+    },
+    {
+      "id": 70,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 60.5,
+      "max_confidence": 60.5
+    },
+    {
+      "id": 71,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.5,
+      "max_confidence": 52.5
+    },
+    {
+      "id": 72,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.9,
+      "max_confidence": 51.9
+    },
+    {
+      "id": 73,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 50.2,
+      "max_confidence": 50.2
+    },
+    {
+      "id": 74,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 67.0,
+      "max_confidence": 67.0
+    },
+    {
+      "id": 75,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 57.8,
+      "max_confidence": 57.8
+    },
+    {
+      "id": 76,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.6,
+      "max_confidence": 52.6
+    },
+    {
+      "id": 77,
+      "size": 3,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.2,
+      "max_confidence": 57.8
+    },
+    {
+      "id": 78,
+      "size": 4,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.6,
+      "max_confidence": 55.6
+    },
+    {
+      "id": 79,
+      "size": 2,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.1,
+      "max_confidence": 51.5
+    },
+    {
+      "id": 80,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.0,
+      "max_confidence": 51.0
+    },
+    {
+      "id": 81,
+      "size": 3,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.7,
+      "max_confidence": 54.7
+    },
+    {
+      "id": 82,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 60.5,
+      "max_confidence": 60.5
+    },
+    {
+      "id": 83,
+      "size": 14,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 56.3,
+      "max_confidence": 66.8
+    },
+    {
+      "id": 84,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.4,
+      "max_confidence": 53.4
+    },
+    {
+      "id": 85,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 62.7,
+      "max_confidence": 62.7
+    },
+    {
+      "id": 86,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 50.6,
+      "max_confidence": 50.6
+    },
+    {
+      "id": 87,
+      "size": 7,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.9,
+      "max_confidence": 56.7
+    },
+    {
+      "id": 88,
+      "size": 31,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.8,
+      "max_confidence": 59.2
+    },
+    {
+      "id": 89,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.3,
+      "max_confidence": 52.3
+    },
+    {
+      "id": 90,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 50.2,
+      "max_confidence": 50.2
+    },
+    {
+      "id": 91,
+      "size": 5,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 56.4,
+      "max_confidence": 60.6
+    },
+    {
+      "id": 92,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 65.7,
+      "max_confidence": 65.7
+    },
+    {
+      "id": 93,
+      "size": 3,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.4,
+      "max_confidence": 57.9
+    },
+    {
+      "id": 94,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.5,
+      "max_confidence": 52.5
+    },
+    {
+      "id": 95,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.6,
+      "max_confidence": 51.6
+    },
+    {
+      "id": 96,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.5,
+      "max_confidence": 51.5
+    },
+    {
+      "id": 97,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 50.8,
+      "max_confidence": 50.8
+    },
+    {
+      "id": 98,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 58.2,
+      "max_confidence": 58.2
+    },
+    {
+      "id": 99,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.8,
+      "max_confidence": 51.8
+    },
+    {
+      "id": 100,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 58.2,
+      "max_confidence": 58.2
+    },
+    {
+      "id": 101,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 50.4,
+      "max_confidence": 50.4
+    },
+    {
+      "id": 102,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 55.0,
+      "max_confidence": 55.0
+    },
+    {
+      "id": 103,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.1,
+      "max_confidence": 52.1
+    },
+    {
+      "id": 104,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 50.0,
+      "max_confidence": 50.0
+    },
+    {
+      "id": 105,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.5,
+      "max_confidence": 53.5
+    },
+    {
+      "id": 106,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 50.3,
+      "max_confidence": 50.3
+    },
+    {
+      "id": 107,
+      "size": 4,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.0,
+      "max_confidence": 55.7
+    },
+    {
+      "id": 108,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 55.0,
+      "max_confidence": 55.0
+    },
+    {
+      "id": 109,
+      "size": 4,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.1,
+      "max_confidence": 53.9
+    },
+    {
+      "id": 110,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.3,
+      "max_confidence": 53.3
+    },
+    {
+      "id": 111,
+      "size": 2,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.5,
+      "max_confidence": 51.8
+    },
+    {
+      "id": 112,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 55.6,
+      "max_confidence": 55.6
+    },
+    {
+      "id": 113,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 50.6,
+      "max_confidence": 50.6
+    },
+    {
+      "id": 114,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.1,
+      "max_confidence": 54.1
+    },
+    {
+      "id": 115,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.9,
+      "max_confidence": 51.9
+    },
+    {
+      "id": 116,
+      "size": 2,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.3,
+      "max_confidence": 56.9
+    },
+    {
+      "id": 117,
+      "size": 3,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.5,
+      "max_confidence": 53.2
+    },
+    {
+      "id": 118,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 56.5,
+      "max_confidence": 56.5
+    },
+    {
+      "id": 119,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.8,
+      "max_confidence": 53.8
+    },
+    {
+      "id": 120,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.0,
+      "max_confidence": 52.0
+    },
+    {
+      "id": 121,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 56.3,
+      "max_confidence": 56.3
+    },
+    {
+      "id": 122,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 58.7,
+      "max_confidence": 58.7
+    },
+    {
+      "id": 123,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.5,
+      "max_confidence": 51.5
+    },
+    {
+      "id": 124,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 50.9,
+      "max_confidence": 50.9
+    },
+    {
+      "id": 125,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.7,
+      "max_confidence": 52.7
+    },
+    {
+      "id": 126,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 50.8,
+      "max_confidence": 50.8
+    },
+    {
+      "id": 127,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 55.8,
+      "max_confidence": 55.8
+    },
+    {
+      "id": 128,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 50.0,
+      "max_confidence": 50.0
+    },
+    {
+      "id": 129,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 56.7,
+      "max_confidence": 56.7
+    },
+    {
+      "id": 130,
+      "size": 10,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.8,
+      "max_confidence": 62.0
+    },
+    {
+      "id": 131,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 50.9,
+      "max_confidence": 50.9
+    },
+    {
+      "id": 132,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.8,
+      "max_confidence": 52.8
+    },
+    {
+      "id": 133,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 60.0,
+      "max_confidence": 60.0
+    },
+    {
+      "id": 134,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.5,
+      "max_confidence": 52.5
+    },
+    {
+      "id": 135,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.9,
+      "max_confidence": 53.9
+    },
+    {
+      "id": 136,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.8,
+      "max_confidence": 54.8
+    },
+    {
+      "id": 137,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.2,
+      "max_confidence": 51.2
+    },
+    {
+      "id": 138,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 56.2,
+      "max_confidence": 56.2
+    },
+    {
+      "id": 139,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 55.3,
+      "max_confidence": 55.3
+    },
+    {
+      "id": 140,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.4,
+      "max_confidence": 52.4
+    },
+    {
+      "id": 141,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.6,
+      "max_confidence": 52.6
+    },
+    {
+      "id": 142,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.1,
+      "max_confidence": 53.1
+    },
+    {
+      "id": 143,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 56.0,
+      "max_confidence": 56.0
+    },
+    {
+      "id": 144,
+      "size": 2,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.3,
+      "max_confidence": 54.3
+    },
+    {
+      "id": 145,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 56.2,
+      "max_confidence": 56.2
+    },
+    {
+      "id": 146,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 50.0,
+      "max_confidence": 50.0
+    },
+    {
+      "id": 147,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.7,
+      "max_confidence": 53.7
+    },
+    {
+      "id": 148,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 55.3,
+      "max_confidence": 55.3
+    },
+    {
+      "id": 149,
+      "size": 3,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.7,
+      "max_confidence": 59.6
+    },
+    {
+      "id": 150,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.0,
+      "max_confidence": 54.0
+    },
+    {
+      "id": 151,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 56.8,
+      "max_confidence": 56.8
+    },
+    {
+      "id": 152,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.4,
+      "max_confidence": 52.4
+    },
+    {
+      "id": 153,
+      "size": 2,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.3,
+      "max_confidence": 52.3
+    },
+    {
+      "id": 154,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.5,
+      "max_confidence": 53.5
+    },
+    {
+      "id": 155,
+      "size": 2,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.3,
+      "max_confidence": 53.7
+    },
+    {
+      "id": 156,
+      "size": 2,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.3,
+      "max_confidence": 52.8
+    },
+    {
+      "id": 157,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.6,
+      "max_confidence": 54.6
+    },
+    {
+      "id": 158,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.2,
+      "max_confidence": 54.2
+    },
+    {
+      "id": 159,
+      "size": 2,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.7,
+      "max_confidence": 56.3
+    },
+    {
+      "id": 160,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.5,
+      "max_confidence": 51.5
+    },
+    {
+      "id": 161,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 50.4,
+      "max_confidence": 50.4
+    },
+    {
+      "id": 162,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 55.3,
+      "max_confidence": 55.3
+    },
+    {
+      "id": 163,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.8,
+      "max_confidence": 53.8
+    },
+    {
+      "id": 164,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 61.2,
+      "max_confidence": 61.2
+    },
+    {
+      "id": 165,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 55.6,
+      "max_confidence": 55.6
+    },
+    {
+      "id": 166,
+      "size": 4,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 55.8,
+      "max_confidence": 61.7
+    },
+    {
+      "id": 167,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.8,
+      "max_confidence": 54.8
+    },
+    {
+      "id": 168,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 57.4,
+      "max_confidence": 57.4
+    },
+    {
+      "id": 169,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.5,
+      "max_confidence": 51.5
+    },
+    {
+      "id": 170,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.8,
+      "max_confidence": 52.8
+    },
+    {
+      "id": 171,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 50.5,
+      "max_confidence": 50.5
+    },
+    {
+      "id": 172,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 57.1,
+      "max_confidence": 57.1
+    },
+    {
+      "id": 173,
+      "size": 10,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.2,
+      "max_confidence": 66.2
+    },
+    {
+      "id": 174,
+      "size": 4,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 55.4,
+      "max_confidence": 60.9
+    },
+    {
+      "id": 175,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 50.3,
+      "max_confidence": 50.3
+    },
+    {
+      "id": 176,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.5,
+      "max_confidence": 51.5
+    },
+    {
+      "id": 177,
+      "size": 3,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 55.8,
+      "max_confidence": 61.7
+    },
+    {
+      "id": 178,
+      "size": 43,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 56.7,
+      "max_confidence": 67.3
+    },
+    {
+      "id": 179,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 57.8,
+      "max_confidence": 57.8
+    },
+    {
+      "id": 180,
+      "size": 3,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.5,
+      "max_confidence": 52.6
+    },
+    {
+      "id": 181,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 59.0,
+      "max_confidence": 59.0
+    },
+    {
+      "id": 182,
+      "size": 4,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.5,
+      "max_confidence": 59.0
+    },
+    {
+      "id": 183,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.3,
+      "max_confidence": 54.3
+    },
+    {
+      "id": 184,
+      "size": 3,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 58.0,
+      "max_confidence": 63.5
+    },
+    {
+      "id": 185,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 57.5,
+      "max_confidence": 57.5
+    },
+    {
+      "id": 186,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 56.7,
+      "max_confidence": 56.7
+    },
+    {
+      "id": 187,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 60.6,
+      "max_confidence": 60.6
+    },
+    {
+      "id": 188,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.8,
+      "max_confidence": 52.8
+    },
+    {
+      "id": 189,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.0,
+      "max_confidence": 51.0
+    },
+    {
+      "id": 190,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.1,
+      "max_confidence": 53.1
+    },
+    {
+      "id": 191,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 56.2,
+      "max_confidence": 56.2
+    },
+    {
+      "id": 192,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 63.0,
+      "max_confidence": 63.0
+    },
+    {
+      "id": 193,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.8,
+      "max_confidence": 53.8
+    },
+    {
+      "id": 194,
+      "size": 2,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.0,
+      "max_confidence": 54.9
+    },
+    {
+      "id": 195,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.1,
+      "max_confidence": 52.1
+    },
+    {
+      "id": 196,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 63.8,
+      "max_confidence": 63.8
+    },
+    {
+      "id": 197,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 62.4,
+      "max_confidence": 62.4
+    },
+    {
+      "id": 198,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.9,
+      "max_confidence": 53.9
+    },
+    {
+      "id": 199,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 61.3,
+      "max_confidence": 61.3
+    },
+    {
+      "id": 200,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 61.4,
+      "max_confidence": 61.4
+    },
+    {
+      "id": 201,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 57.6,
+      "max_confidence": 57.6
+    },
+    {
+      "id": 202,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 62.5,
+      "max_confidence": 62.5
+    },
+    {
+      "id": 203,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 50.3,
+      "max_confidence": 50.3
+    },
+    {
+      "id": 204,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 62.4,
+      "max_confidence": 62.4
+    },
+    {
+      "id": 205,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 64.0,
+      "max_confidence": 64.0
+    },
+    {
+      "id": 206,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 56.1,
+      "max_confidence": 56.1
+    },
+    {
+      "id": 207,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 64.7,
+      "max_confidence": 64.7
+    },
+    {
+      "id": 208,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 56.4,
+      "max_confidence": 56.4
+    },
+    {
+      "id": 209,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.5,
+      "max_confidence": 54.5
+    },
+    {
+      "id": 210,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 55.7,
+      "max_confidence": 55.7
+    },
+    {
+      "id": 211,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.4,
+      "max_confidence": 51.4
+    },
+    {
+      "id": 212,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 59.2,
+      "max_confidence": 59.2
+    },
+    {
+      "id": 213,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.6,
+      "max_confidence": 54.6
+    },
+    {
+      "id": 214,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 58.3,
+      "max_confidence": 58.3
+    },
+    {
+      "id": 215,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 62.1,
+      "max_confidence": 62.1
+    },
+    {
+      "id": 216,
+      "size": 7,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 55.5,
+      "max_confidence": 62.4
+    },
+    {
+      "id": 217,
+      "size": 3,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.5,
+      "max_confidence": 57.9
+    },
+    {
+      "id": 218,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.9,
+      "max_confidence": 52.9
+    },
+    {
+      "id": 219,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 59.1,
+      "max_confidence": 59.1
+    },
+    {
+      "id": 220,
+      "size": 6,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 59.1,
+      "max_confidence": 66.6
+    },
+    {
+      "id": 221,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 62.7,
+      "max_confidence": 62.7
+    },
+    {
+      "id": 222,
+      "size": 3,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 55.2,
+      "max_confidence": 61.9
+    },
+    {
+      "id": 223,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.3,
+      "max_confidence": 53.3
+    },
+    {
+      "id": 224,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 50.4,
+      "max_confidence": 50.4
+    },
+    {
+      "id": 225,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 65.5,
+      "max_confidence": 65.5
+    },
+    {
+      "id": 226,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 55.8,
+      "max_confidence": 55.8
+    },
+    {
+      "id": 227,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 60.5,
+      "max_confidence": 60.5
+    },
+    {
+      "id": 228,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.0,
+      "max_confidence": 54.0
+    },
+    {
+      "id": 229,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 60.0,
+      "max_confidence": 60.0
+    },
+    {
+      "id": 230,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 56.2,
+      "max_confidence": 56.2
+    },
+    {
+      "id": 231,
+      "size": 6,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 56.1,
+      "max_confidence": 63.7
+    },
+    {
+      "id": 232,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 66.3,
+      "max_confidence": 66.3
+    },
+    {
+      "id": 233,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 63.1,
+      "max_confidence": 63.1
+    },
+    {
+      "id": 234,
+      "size": 3,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.2,
+      "max_confidence": 51.6
+    },
+    {
+      "id": 235,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 57.0,
+      "max_confidence": 57.0
+    },
+    {
+      "id": 236,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 60.4,
+      "max_confidence": 60.4
+    },
+    {
+      "id": 237,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 50.5,
+      "max_confidence": 50.5
+    },
+    {
+      "id": 238,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 68.9,
+      "max_confidence": 68.9
+    },
+    {
+      "id": 239,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 50.6,
+      "max_confidence": 50.6
+    },
+    {
+      "id": 240,
+      "size": 5,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.7,
+      "max_confidence": 55.1
+    },
+    {
+      "id": 241,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.3,
+      "max_confidence": 53.3
+    },
+    {
+      "id": 242,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 77.2,
+      "max_confidence": 77.2
+    },
+    {
+      "id": 243,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.4,
+      "max_confidence": 53.4
+    },
+    {
+      "id": 244,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 61.7,
+      "max_confidence": 61.7
+    },
+    {
+      "id": 245,
+      "size": 2,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.8,
+      "max_confidence": 56.6
+    },
+    {
+      "id": 246,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.6,
+      "max_confidence": 52.6
+    },
+    {
+      "id": 247,
+      "size": 4,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 55.5,
+      "max_confidence": 62.5
+    },
+    {
+      "id": 248,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 56.6,
+      "max_confidence": 56.6
+    },
+    {
+      "id": 249,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.9,
+      "max_confidence": 54.9
+    },
+    {
+      "id": 250,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.8,
+      "max_confidence": 51.8
+    },
+    {
+      "id": 251,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.4,
+      "max_confidence": 51.4
+    },
+    {
+      "id": 252,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 61.4,
+      "max_confidence": 61.4
+    },
+    {
+      "id": 253,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.3,
+      "max_confidence": 54.3
+    },
+    {
+      "id": 254,
+      "size": 3,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.3,
+      "max_confidence": 53.2
+    },
+    {
+      "id": 255,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.2,
+      "max_confidence": 51.2
+    },
+    {
+      "id": 256,
+      "size": 4,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 56.1,
+      "max_confidence": 63.6
+    },
+    {
+      "id": 257,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 66.7,
+      "max_confidence": 66.7
+    },
+    {
+      "id": 258,
+      "size": 3,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.0,
+      "max_confidence": 58.0
+    },
+    {
+      "id": 259,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.3,
+      "max_confidence": 54.3
+    },
+    {
+      "id": 260,
+      "size": 15,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.8,
+      "max_confidence": 62.7
+    },
+    {
+      "id": 261,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 50.9,
+      "max_confidence": 50.9
+    },
+    {
+      "id": 262,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 57.4,
+      "max_confidence": 57.4
+    },
+    {
+      "id": 263,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.5,
+      "max_confidence": 54.5
+    },
+    {
+      "id": 264,
+      "size": 53,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.5,
+      "max_confidence": 61.1
+    },
+    {
+      "id": 265,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 55.4,
+      "max_confidence": 55.4
+    },
+    {
+      "id": 266,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 50.2,
+      "max_confidence": 50.2
+    },
+    {
+      "id": 267,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.2,
+      "max_confidence": 53.2
+    },
+    {
+      "id": 268,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.0,
+      "max_confidence": 52.0
+    },
+    {
+      "id": 269,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 69.0,
+      "max_confidence": 69.0
+    },
+    {
+      "id": 270,
+      "size": 10,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 56.7,
+      "max_confidence": 66.6
+    },
+    {
+      "id": 271,
+      "size": 5,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.7,
+      "max_confidence": 57.9
+    },
+    {
+      "id": 272,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.3,
+      "max_confidence": 53.3
+    },
+    {
+      "id": 273,
+      "size": 3,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 56.1,
+      "max_confidence": 63.5
+    },
+    {
+      "id": 274,
+      "size": 6,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.5,
+      "max_confidence": 57.4
+    },
+    {
+      "id": 275,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 56.8,
+      "max_confidence": 56.8
+    },
+    {
+      "id": 276,
+      "size": 3,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.3,
+      "max_confidence": 52.7
+    },
+    {
+      "id": 277,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.2,
+      "max_confidence": 53.2
+    },
+    {
+      "id": 278,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 58.2,
+      "max_confidence": 58.2
+    },
+    {
+      "id": 279,
+      "size": 2,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 65.1,
+      "max_confidence": 65.7
+    },
+    {
+      "id": 280,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.1,
+      "max_confidence": 51.1
+    },
+    {
+      "id": 281,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.6,
+      "max_confidence": 51.6
+    },
+    {
+      "id": 282,
+      "size": 10,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.8,
+      "max_confidence": 58.6
+    },
+    {
+      "id": 283,
+      "size": 2,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.2,
+      "max_confidence": 54.6
+    },
+    {
+      "id": 284,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 57.8,
+      "max_confidence": 57.8
+    },
+    {
+      "id": 285,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.1,
+      "max_confidence": 52.1
+    },
+    {
+      "id": 286,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 50.7,
+      "max_confidence": 50.7
+    },
+    {
+      "id": 287,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.4,
+      "max_confidence": 54.4
+    },
+    {
+      "id": 288,
+      "size": 4,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.7,
+      "max_confidence": 61.0
+    },
+    {
+      "id": 289,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.9,
+      "max_confidence": 53.9
+    },
+    {
+      "id": 290,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.6,
+      "max_confidence": 51.6
+    },
+    {
+      "id": 291,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 55.6,
+      "max_confidence": 55.6
+    },
+    {
+      "id": 292,
+      "size": 7,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.2,
+      "max_confidence": 57.9
+    },
+    {
+      "id": 293,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 57.4,
+      "max_confidence": 57.4
+    },
+    {
+      "id": 294,
+      "size": 8,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 55.0,
+      "max_confidence": 59.5
+    },
+    {
+      "id": 295,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 56.2,
+      "max_confidence": 56.2
+    },
+    {
+      "id": 296,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.6,
+      "max_confidence": 53.6
+    },
+    {
+      "id": 297,
+      "size": 64,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.0,
+      "max_confidence": 62.3
+    },
+    {
+      "id": 298,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 61.6,
+      "max_confidence": 61.6
+    },
+    {
+      "id": 299,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 57.1,
+      "max_confidence": 57.1
+    },
+    {
+      "id": 300,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.4,
+      "max_confidence": 51.4
+    },
+    {
+      "id": 301,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 65.4,
+      "max_confidence": 65.4
+    },
+    {
+      "id": 302,
+      "size": 3,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 56.1,
+      "max_confidence": 59.1
+    },
+    {
+      "id": 303,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.9,
+      "max_confidence": 51.9
+    },
+    {
+      "id": 304,
+      "size": 2,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 55.3,
+      "max_confidence": 60.3
+    },
+    {
+      "id": 305,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.3,
+      "max_confidence": 52.3
+    },
+    {
+      "id": 306,
+      "size": 3,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 55.5,
+      "max_confidence": 61.4
+    },
+    {
+      "id": 307,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 50.8,
+      "max_confidence": 50.8
+    },
+    {
+      "id": 308,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 60.3,
+      "max_confidence": 60.3
+    },
+    {
+      "id": 309,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 62.7,
+      "max_confidence": 62.7
+    },
+    {
+      "id": 310,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 56.0,
+      "max_confidence": 56.0
+    },
+    {
+      "id": 311,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 58.7,
+      "max_confidence": 58.7
+    },
+    {
+      "id": 312,
+      "size": 3,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 62.7,
+      "max_confidence": 66.6
+    },
+    {
+      "id": 313,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 55.1,
+      "max_confidence": 55.1
+    },
+    {
+      "id": 314,
+      "size": 9,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 56.4,
+      "max_confidence": 60.9
+    },
+    {
+      "id": 315,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.2,
+      "max_confidence": 52.2
+    },
+    {
+      "id": 316,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.3,
+      "max_confidence": 54.3
+    },
+    {
+      "id": 317,
+      "size": 2,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 61.1,
+      "max_confidence": 63.5
+    },
+    {
+      "id": 318,
+      "size": 4,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.9,
+      "max_confidence": 54.7
+    },
+    {
+      "id": 319,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 56.4,
+      "max_confidence": 56.4
+    },
+    {
+      "id": 320,
+      "size": 5,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 55.0,
+      "max_confidence": 58.0
+    },
+    {
+      "id": 321,
+      "size": 4,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 57.1,
+      "max_confidence": 65.9
+    },
+    {
+      "id": 322,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.2,
+      "max_confidence": 53.2
+    },
+    {
+      "id": 323,
+      "size": 2,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 55.2,
+      "max_confidence": 58.7
+    },
+    {
+      "id": 324,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 59.3,
+      "max_confidence": 59.3
+    },
+    {
+      "id": 325,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 63.2,
+      "max_confidence": 63.2
+    },
+    {
+      "id": 326,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.3,
+      "max_confidence": 53.3
+    },
+    {
+      "id": 327,
+      "size": 10,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 57.1,
+      "max_confidence": 63.3
+    },
+    {
+      "id": 328,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.2,
+      "max_confidence": 53.2
+    },
+    {
+      "id": 329,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 60.9,
+      "max_confidence": 60.9
+    },
+    {
+      "id": 330,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 60.6,
+      "max_confidence": 60.6
+    },
+    {
+      "id": 331,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 50.7,
+      "max_confidence": 50.7
+    },
+    {
+      "id": 332,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 57.6,
+      "max_confidence": 57.6
+    },
+    {
+      "id": 333,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 55.3,
+      "max_confidence": 55.3
+    },
+    {
+      "id": 334,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 58.6,
+      "max_confidence": 58.6
+    },
+    {
+      "id": 335,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 64.2,
+      "max_confidence": 64.2
+    },
+    {
+      "id": 336,
+      "size": 5,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 56.2,
+      "max_confidence": 63.4
+    },
+    {
+      "id": 337,
+      "size": 7,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.5,
+      "max_confidence": 60.0
+    },
+    {
+      "id": 338,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 55.4,
+      "max_confidence": 55.4
+    },
+    {
+      "id": 339,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 60.5,
+      "max_confidence": 60.5
+    },
+    {
+      "id": 340,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 58.7,
+      "max_confidence": 58.7
+    },
+    {
+      "id": 341,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.5,
+      "max_confidence": 51.5
+    },
+    {
+      "id": 342,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 59.8,
+      "max_confidence": 59.8
+    },
+    {
+      "id": 343,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 61.0,
+      "max_confidence": 61.0
+    },
+    {
+      "id": 344,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 61.9,
+      "max_confidence": 61.9
+    },
+    {
+      "id": 345,
+      "size": 2,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 57.9,
+      "max_confidence": 59.8
+    },
+    {
+      "id": 346,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 55.0,
+      "max_confidence": 55.0
+    },
+    {
+      "id": 347,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.5,
+      "max_confidence": 51.5
+    },
+    {
+      "id": 348,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 55.3,
+      "max_confidence": 55.3
+    },
+    {
+      "id": 349,
+      "size": 8,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 56.0,
+      "max_confidence": 62.0
+    },
+    {
+      "id": 350,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.3,
+      "max_confidence": 52.3
+    },
+    {
+      "id": 351,
+      "size": 4,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 56.5,
+      "max_confidence": 62.2
+    },
+    {
+      "id": 352,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 58.6,
+      "max_confidence": 58.6
+    },
+    {
+      "id": 353,
+      "size": 3,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 59.2,
+      "max_confidence": 64.4
+    },
+    {
+      "id": 354,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 59.3,
+      "max_confidence": 59.3
+    },
+    {
+      "id": 355,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 55.5,
+      "max_confidence": 55.5
+    },
+    {
+      "id": 356,
+      "size": 5,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 56.8,
+      "max_confidence": 60.6
+    },
+    {
+      "id": 357,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.8,
+      "max_confidence": 52.8
+    },
+    {
+      "id": 358,
+      "size": 6,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 58.5,
+      "max_confidence": 65.9
+    },
+    {
+      "id": 359,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 56.9,
+      "max_confidence": 56.9
+    },
+    {
+      "id": 360,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 58.9,
+      "max_confidence": 58.9
+    },
+    {
+      "id": 361,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 61.0,
+      "max_confidence": 61.0
+    },
+    {
+      "id": 362,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 63.5,
+      "max_confidence": 63.5
+    },
+    {
+      "id": 363,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 57.6,
+      "max_confidence": 57.6
+    },
+    {
+      "id": 364,
+      "size": 4,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 55.2,
+      "max_confidence": 59.1
+    },
+    {
+      "id": 365,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 58.8,
+      "max_confidence": 58.8
+    },
+    {
+      "id": 366,
+      "size": 4,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 56.5,
+      "max_confidence": 62.2
+    },
+    {
+      "id": 367,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 56.4,
+      "max_confidence": 56.4
+    },
+    {
+      "id": 368,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.5,
+      "max_confidence": 54.5
+    },
+    {
+      "id": 369,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 56.9,
+      "max_confidence": 56.9
+    },
+    {
+      "id": 370,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.2,
+      "max_confidence": 51.2
+    },
+    {
+      "id": 371,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 56.4,
+      "max_confidence": 56.4
+    },
+    {
+      "id": 372,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 50.3,
+      "max_confidence": 50.3
+    },
+    {
+      "id": 373,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.9,
+      "max_confidence": 54.9
+    },
+    {
+      "id": 374,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 50.8,
+      "max_confidence": 50.8
+    },
+    {
+      "id": 375,
+      "size": 4,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.2,
+      "max_confidence": 56.5
+    },
+    {
+      "id": 376,
+      "size": 2,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.5,
+      "max_confidence": 53.6
+    },
+    {
+      "id": 377,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 81.3,
+      "max_confidence": 81.3
+    },
+    {
+      "id": 378,
+      "size": 3,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 58.3,
+      "max_confidence": 63.5
+    },
+    {
+      "id": 379,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 60.6,
+      "max_confidence": 60.6
+    },
+    {
+      "id": 380,
+      "size": 4,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 59.1,
+      "max_confidence": 66.7
+    },
+    {
+      "id": 381,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.2,
+      "max_confidence": 54.2
+    },
+    {
+      "id": 382,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 63.6,
+      "max_confidence": 63.6
+    },
+    {
+      "id": 383,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 56.7,
+      "max_confidence": 56.7
+    },
+    {
+      "id": 384,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 55.3,
+      "max_confidence": 55.3
+    },
+    {
+      "id": 385,
+      "size": 4,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 55.3,
+      "max_confidence": 59.6
+    },
+    {
+      "id": 386,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 77.3,
+      "max_confidence": 77.3
+    },
+    {
+      "id": 387,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 56.1,
+      "max_confidence": 56.1
+    },
+    {
+      "id": 388,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 92.2,
+      "max_confidence": 92.2
+    },
+    {
+      "id": 389,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 56.5,
+      "max_confidence": 56.5
+    },
+    {
+      "id": 390,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.1,
+      "max_confidence": 51.1
+    },
+    {
+      "id": 391,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 55.4,
+      "max_confidence": 55.4
+    },
+    {
+      "id": 392,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 60.3,
+      "max_confidence": 60.3
+    },
+    {
+      "id": 393,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 63.5,
+      "max_confidence": 63.5
+    },
+    {
+      "id": 394,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 56.2,
+      "max_confidence": 56.2
+    },
+    {
+      "id": 395,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.2,
+      "max_confidence": 54.2
+    },
+    {
+      "id": 396,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 60.2,
+      "max_confidence": 60.2
+    },
+    {
+      "id": 397,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 62.2,
+      "max_confidence": 62.2
+    },
+    {
+      "id": 398,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 57.3,
+      "max_confidence": 57.3
+    },
+    {
+      "id": 399,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 62.4,
+      "max_confidence": 62.4
+    },
+    {
+      "id": 400,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.2,
+      "max_confidence": 54.2
+    },
+    {
+      "id": 401,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.5,
+      "max_confidence": 51.5
+    },
+    {
+      "id": 402,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 50.6,
+      "max_confidence": 50.6
+    },
+    {
+      "id": 403,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 55.3,
+      "max_confidence": 55.3
+    },
+    {
+      "id": 404,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.0,
+      "max_confidence": 54.0
+    },
+    {
+      "id": 405,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.4,
+      "max_confidence": 54.4
+    },
+    {
+      "id": 406,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.2,
+      "max_confidence": 51.2
+    },
+    {
+      "id": 407,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.2,
+      "max_confidence": 54.2
+    },
+    {
+      "id": 408,
+      "size": 8,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 55.8,
+      "max_confidence": 63.0
+    },
+    {
+      "id": 409,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 60.5,
+      "max_confidence": 60.5
+    },
+    {
+      "id": 410,
+      "size": 4,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.0,
+      "max_confidence": 57.2
+    },
+    {
+      "id": 411,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 59.9,
+      "max_confidence": 59.9
+    },
+    {
+      "id": 412,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.6,
+      "max_confidence": 53.6
+    },
+    {
+      "id": 413,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 50.9,
+      "max_confidence": 50.9
+    },
+    {
+      "id": 414,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 59.4,
+      "max_confidence": 59.4
+    },
+    {
+      "id": 415,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 56.3,
+      "max_confidence": 56.3
+    },
+    {
+      "id": 416,
+      "size": 4,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 55.4,
+      "max_confidence": 61.9
+    },
+    {
+      "id": 417,
+      "size": 3,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 55.0,
+      "max_confidence": 56.3
+    },
+    {
+      "id": 418,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 61.3,
+      "max_confidence": 61.3
+    },
+    {
+      "id": 419,
+      "size": 4,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.7,
+      "max_confidence": 53.3
+    },
+    {
+      "id": 420,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 50.0,
+      "max_confidence": 50.0
+    },
+    {
+      "id": 421,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 61.8,
+      "max_confidence": 61.8
+    },
+    {
+      "id": 422,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 65.9,
+      "max_confidence": 65.9
+    },
+    {
+      "id": 423,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 50.1,
+      "max_confidence": 50.1
+    },
+    {
+      "id": 424,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 50.6,
+      "max_confidence": 50.6
+    },
+    {
+      "id": 425,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.3,
+      "max_confidence": 53.3
+    },
+    {
+      "id": 426,
+      "size": 8,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.3,
+      "max_confidence": 56.2
+    },
+    {
+      "id": 427,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.4,
+      "max_confidence": 51.4
+    },
+    {
+      "id": 428,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 61.9,
+      "max_confidence": 61.9
+    },
+    {
+      "id": 429,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 57.8,
+      "max_confidence": 57.8
+    },
+    {
+      "id": 430,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 56.5,
+      "max_confidence": 56.5
+    },
+    {
+      "id": 431,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 57.5,
+      "max_confidence": 57.5
+    },
+    {
+      "id": 432,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.3,
+      "max_confidence": 51.3
+    },
+    {
+      "id": 433,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.0,
+      "max_confidence": 51.0
+    },
+    {
+      "id": 434,
+      "size": 2,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.0,
+      "max_confidence": 53.6
+    },
+    {
+      "id": 435,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.8,
+      "max_confidence": 51.8
+    },
+    {
+      "id": 436,
+      "size": 2,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.0,
+      "max_confidence": 53.5
+    },
+    {
+      "id": 437,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.0,
+      "max_confidence": 51.0
+    },
+    {
+      "id": 438,
+      "size": 7,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.0,
+      "max_confidence": 58.5
+    },
+    {
+      "id": 439,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 55.3,
+      "max_confidence": 55.3
+    },
+    {
+      "id": 440,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.2,
+      "max_confidence": 53.2
+    },
+    {
+      "id": 441,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.4,
+      "max_confidence": 54.4
+    },
+    {
+      "id": 442,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 50.8,
+      "max_confidence": 50.8
+    },
+    {
+      "id": 443,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 55.7,
+      "max_confidence": 55.7
+    },
+    {
+      "id": 444,
+      "size": 2,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.2,
+      "max_confidence": 53.2
+    },
+    {
+      "id": 445,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.8,
+      "max_confidence": 51.8
+    },
+    {
+      "id": 446,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.3,
+      "max_confidence": 52.3
+    },
+    {
+      "id": 447,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.2,
+      "max_confidence": 52.2
+    },
+    {
+      "id": 448,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.0,
+      "max_confidence": 52.0
+    },
+    {
+      "id": 449,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.7,
+      "max_confidence": 53.7
+    },
+    {
+      "id": 450,
+      "size": 3,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.6,
+      "max_confidence": 52.4
+    },
+    {
+      "id": 451,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 55.2,
+      "max_confidence": 55.2
+    },
+    {
+      "id": 452,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.6,
+      "max_confidence": 54.6
+    },
+    {
+      "id": 453,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.8,
+      "max_confidence": 54.8
+    },
+    {
+      "id": 454,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 59.0,
+      "max_confidence": 59.0
+    },
+    {
+      "id": 455,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.9,
+      "max_confidence": 53.9
+    },
+    {
+      "id": 456,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 59.9,
+      "max_confidence": 59.9
+    },
+    {
+      "id": 457,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.1,
+      "max_confidence": 53.1
+    },
+    {
+      "id": 458,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.9,
+      "max_confidence": 54.9
+    },
+    {
+      "id": 459,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 50.2,
+      "max_confidence": 50.2
+    },
+    {
+      "id": 460,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.6,
+      "max_confidence": 51.6
+    },
+    {
+      "id": 461,
+      "size": 4,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.3,
+      "max_confidence": 54.8
+    },
+    {
+      "id": 462,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.1,
+      "max_confidence": 52.1
+    },
+    {
+      "id": 463,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.4,
+      "max_confidence": 54.4
+    },
+    {
+      "id": 464,
+      "size": 2,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.2,
+      "max_confidence": 53.7
+    },
+    {
+      "id": 465,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.9,
+      "max_confidence": 51.9
+    },
+    {
+      "id": 466,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.0,
+      "max_confidence": 53.0
+    },
+    {
+      "id": 467,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.0,
+      "max_confidence": 53.0
+    },
+    {
+      "id": 468,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.2,
+      "max_confidence": 51.2
+    },
+    {
+      "id": 469,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.3,
+      "max_confidence": 53.3
+    },
+    {
+      "id": 470,
+      "size": 2,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.7,
+      "max_confidence": 53.2
+    },
+    {
+      "id": 471,
+      "size": 3,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.2,
+      "max_confidence": 54.6
+    },
+    {
+      "id": 472,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.8,
+      "max_confidence": 53.8
+    },
+    {
+      "id": 473,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.8,
+      "max_confidence": 51.8
+    },
+    {
+      "id": 474,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.8,
+      "max_confidence": 51.8
+    },
+    {
+      "id": 475,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.3,
+      "max_confidence": 53.3
+    },
+    {
+      "id": 476,
+      "size": 3,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.8,
+      "max_confidence": 53.2
+    },
+    {
+      "id": 477,
+      "size": 10,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.9,
+      "max_confidence": 53.4
+    },
+    {
+      "id": 478,
+      "size": 7,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.5,
+      "max_confidence": 54.7
+    },
+    {
+      "id": 479,
+      "size": 3,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.0,
+      "max_confidence": 52.4
+    },
+    {
+      "id": 480,
+      "size": 3,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.9,
+      "max_confidence": 57.8
+    },
+    {
+      "id": 481,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.6,
+      "max_confidence": 54.6
+    },
+    {
+      "id": 482,
+      "size": 2,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.9,
+      "max_confidence": 53.3
+    },
+    {
+      "id": 483,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.7,
+      "max_confidence": 53.7
+    },
+    {
+      "id": 484,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 50.7,
+      "max_confidence": 50.7
+    },
+    {
+      "id": 485,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.4,
+      "max_confidence": 53.4
+    },
+    {
+      "id": 486,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.0,
+      "max_confidence": 52.0
+    },
+    {
+      "id": 487,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.7,
+      "max_confidence": 51.7
+    },
+    {
+      "id": 488,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.1,
+      "max_confidence": 51.1
+    },
+    {
+      "id": 489,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.0,
+      "max_confidence": 51.0
+    },
+    {
+      "id": 490,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.8,
+      "max_confidence": 51.8
+    },
+    {
+      "id": 491,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.4,
+      "max_confidence": 53.4
+    },
+    {
+      "id": 492,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 55.6,
+      "max_confidence": 55.6
+    },
+    {
+      "id": 493,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 50.3,
+      "max_confidence": 50.3
+    },
+    {
+      "id": 494,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.2,
+      "max_confidence": 53.2
+    },
+    {
+      "id": 495,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.4,
+      "max_confidence": 53.4
+    },
+    {
+      "id": 496,
+      "size": 3,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.2,
+      "max_confidence": 57.6
+    },
+    {
+      "id": 497,
+      "size": 16,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.1,
+      "max_confidence": 55.6
+    },
+    {
+      "id": 498,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.0,
+      "max_confidence": 54.0
+    },
+    {
+      "id": 499,
+      "size": 7,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.1,
+      "max_confidence": 55.0
+    },
+    {
+      "id": 500,
+      "size": 57,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.8,
+      "max_confidence": 58.7
+    },
+    {
+      "id": 501,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.1,
+      "max_confidence": 53.1
+    },
+    {
+      "id": 502,
+      "size": 3,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.5,
+      "max_confidence": 52.0
+    },
+    {
+      "id": 503,
+      "size": 2,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.1,
+      "max_confidence": 53.6
+    },
+    {
+      "id": 504,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.0,
+      "max_confidence": 53.0
+    },
+    {
+      "id": 505,
+      "size": 4,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.4,
+      "max_confidence": 54.5
+    },
+    {
+      "id": 506,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 50.6,
+      "max_confidence": 50.6
+    },
+    {
+      "id": 507,
+      "size": 7,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.6,
+      "max_confidence": 59.6
+    },
+    {
+      "id": 508,
+      "size": 3,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 50.7,
+      "max_confidence": 50.7
+    },
+    {
+      "id": 509,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.5,
+      "max_confidence": 54.5
+    },
+    {
+      "id": 510,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 54.3,
+      "max_confidence": 54.3
+    },
+    {
+      "id": 511,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.1,
+      "max_confidence": 52.1
+    },
+    {
+      "id": 512,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.7,
+      "max_confidence": 52.7
+    },
+    {
+      "id": 513,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.1,
+      "max_confidence": 51.1
+    },
+    {
+      "id": 514,
+      "size": 2,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 55.4,
+      "max_confidence": 55.4
+    },
+    {
+      "id": 515,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 55.1,
+      "max_confidence": 55.1
+    },
+    {
+      "id": 516,
+      "size": 3,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.3,
+      "max_confidence": 53.3
+    },
+    {
+      "id": 517,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.6,
+      "max_confidence": 51.6
+    },
+    {
+      "id": 518,
+      "size": 2,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 50.7,
+      "max_confidence": 51.0
+    },
+    {
+      "id": 519,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 55.7,
+      "max_confidence": 55.7
+    },
+    {
+      "id": 520,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 69.5,
+      "max_confidence": 69.5
+    },
+    {
+      "id": 521,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 57.2,
+      "max_confidence": 57.2
+    },
+    {
+      "id": 522,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 50.7,
+      "max_confidence": 50.7
+    },
+    {
+      "id": 523,
+      "size": 5,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.8,
+      "max_confidence": 54.4
+    },
+    {
+      "id": 524,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.3,
+      "max_confidence": 52.3
+    },
+    {
+      "id": 525,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.7,
+      "max_confidence": 52.7
+    },
+    {
+      "id": 526,
+      "size": 3,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.5,
+      "max_confidence": 54.8
+    },
+    {
+      "id": 527,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 86.9,
+      "max_confidence": 86.9
+    },
+    {
+      "id": 528,
+      "size": 7,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 53.3,
+      "max_confidence": 57.7
+    },
+    {
+      "id": 529,
+      "size": 2,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.2,
+      "max_confidence": 52.5
+    },
+    {
+      "id": 530,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.1,
+      "max_confidence": 51.1
+    },
+    {
+      "id": 531,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 52.2,
+      "max_confidence": 52.2
+    },
+    {
+      "id": 532,
+      "size": 2,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.0,
+      "max_confidence": 51.2
+    },
+    {
+      "id": 533,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 56.5,
+      "max_confidence": 56.5
+    },
+    {
+      "id": 534,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.1,
+      "max_confidence": 51.1
+    },
+    {
+      "id": 535,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 51.4,
+      "max_confidence": 51.4
+    },
+    {
+      "id": 536,
+      "size": 1,
+      "type": "Superficial Peritoneal Lesion",
+      "mean_confidence": 50.3,
+      "max_confidence": 50.3
+    }
+  ],
+  "morphology": {
+    "irregularity": 0.301,
+    "sphericity": 0.002,
+    "texture_complexity": 0.91
+  },
+  "organ_involvement": [
+    {
+      "name": "Ovary",
+      "involvement": 100,
+      "side": "bilateral"
+    },
+    {
+      "name": "Uterosacral Ligaments",
+      "involvement": 100,
+      "side": "bilateral"
+    },
+    {
+      "name": "Rectovaginal Septum",
+      "involvement": 100,
+      "side": "central"
+    }
+  ],
+  "recommendations": [
+    "Multidisciplinary team recommended (GYN, colorectal, urology)",
+    "Bowel resection may be required",
+    "Pre-operative MRI with contrast for detailed mapping",
+    "Estimated OR time: 3-4 hours",
+    "Consider fertility counseling if applicable"
+  ],
+  "surgical_roadmap": {
+    "phenotype": "Deep Infiltrating Endometriosis (DIE) - Multiple Sites",
+    "complexity": "High",
+    "severity": "Severe",
+    "confidence": 59,
+    "lesion_percentage": 86.19,
+    "organ_involvement": [
+      {
+        "name": "Ovary",
+        "involvement": 100,
+        "side": "bilateral"
+      },
+      {
+        "name": "Uterosacral Ligaments",
+        "involvement": 100,
+        "side": "bilateral"
+      },
+      {
+        "name": "Rectovaginal Septum",
+        "involvement": 100,
+        "side": "central"
+      }
+    ],
+    "recommendations": [
+      "Multidisciplinary team recommended (GYN, colorectal, urology)",
+      "Bowel resection may be required",
+      "Pre-operative MRI with contrast for detailed mapping",
+      "Estimated OR time: 3-4 hours",
+      "Consider fertility counseling if applicable"
+    ],
+    "generated_at": "2026-01-16T16:50:40.619380"
+  },
+  "detection_validated": true,
+  "generated_at": "2026-01-16T16:50:40.619380"
+}

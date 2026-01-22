@@ -2,7 +2,13 @@
 """
 Generate Demo Outputs for EndoDetect AI Presentation
 Creates heatmaps, segmentation overlays, and surgical roadmaps
+
+NOTE: This script is DISABLED - focus is now on radiomics-based training only.
+Use train_radiomics.py instead.
 """
+import sys
+print("ERROR: Demo generation is disabled. Use train_radiomics.py for training.")
+sys.exit(1)
 
 import os
 import argparse

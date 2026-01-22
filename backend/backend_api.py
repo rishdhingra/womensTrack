@@ -43,16 +43,44 @@ ALLOWED_EXTENSIONS = {'dcm', 'nii', 'nii.gz', 'zip', 'png', 'jpg', 'jpeg'}
 # Load model
 device = torch.device('cpu')
 model = AttentionUNet(in_channels=1, out_channels=1).to(device)
+model_loaded = False
 
+# Try to load from main models directory
 if MODEL_PATH.exists():
-    checkpoint = torch.load(MODEL_PATH, map_location=device)
-    model.load_state_dict(checkpoint['model_state_dict'])
+    try:
+        checkpoint = torch.load(MODEL_PATH, map_location=device)
+        # Check if it's a radiomics-enhanced model (has 'unet.' prefix)
+        state_dict = checkpoint.get('model_state_dict', checkpoint)
+        if any(k.startswith('unet.') for k in state_dict.keys()):
+            print(f"⚠️  Model at {MODEL_PATH} is a RadiomicsEnhancedUNet (not compatible with current API)")
+            print(f"   API will use untrained model for demonstration")
+        else:
+            model.load_state_dict(state_dict, strict=False)
+            model.eval()
+            model_loaded = True
+            print(f"✅ Model loaded from {MODEL_PATH}")
+            if 'dice' in checkpoint:
+                print(f"   Model Dice Score: {checkpoint['dice']:.4f} ({checkpoint['dice']*100:.2f}%)")
+    except Exception as e:
+        print(f"⚠️  Error loading model from {MODEL_PATH}: {e}")
+        print(f"   Using untrained model for demonstration")
+
+# Try to load radiomics model if main model failed
+if not model_loaded:
+    radiomics_model_path = Path('./models_radiomics/best_model.pth')
+    if radiomics_model_path.exists():
+        try:
+            checkpoint = torch.load(radiomics_model_path, map_location=device)
+            print(f"ℹ️  Found radiomics model at {radiomics_model_path}")
+            if 'accuracy' in checkpoint:
+                print(f"   Radiomics Model Accuracy: {checkpoint['accuracy']:.4f} ({checkpoint['accuracy']*100:.2f}%)")
+            print(f"   Note: Radiomics model requires different API endpoints")
+        except Exception as e:
+            print(f"⚠️  Could not load radiomics model: {e}")
+
+if not model_loaded:
+    print(f"⚠️  Using untrained model for demonstration")
     model.eval()
-    print(f"✅ Model loaded from {MODEL_PATH}")
-    print(f"   Model Dice Score: {checkpoint['dice']:.4f} ({checkpoint['dice']*100:.2f}%)")
-else:
-    print(f"⚠️  Model not found at {MODEL_PATH}")
-    print(f"   Using untrained model for demonstration")
 
 
 def allowed_file(filename):

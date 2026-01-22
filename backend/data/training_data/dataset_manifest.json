@@ -1,0 +1,229 @@
+{
+  "patients": [
+    {
+      "patient_id": "ENDO_DIE_01",
+      "diagnosis": "endometriosis",
+      "lesion_type": "DIE",
+      "severity": "moderate",
+      "lesion_volume_ml": 5.555129999999999
+    },
+    {
+      "patient_id": "ENDO_DIE_02",
+      "diagnosis": "endometriosis",
+      "lesion_type": "DIE",
+      "severity": "moderate",
+      "lesion_volume_ml": 5.555129999999999
+    },
+    {
+      "patient_id": "ENDO_DIE_03",
+      "diagnosis": "endometriosis",
+      "lesion_type": "DIE",
+      "severity": "moderate",
+      "lesion_volume_ml": 5.555129999999999
+    },
+    {
+      "patient_id": "ENDO_DIE_04",
+      "diagnosis": "endometriosis",
+      "lesion_type": "DIE",
+      "severity": "moderate",
+      "lesion_volume_ml": 5.555129999999999
+    },
+    {
+      "patient_id": "ENDO_DIE_05",
+      "diagnosis": "endometriosis",
+      "lesion_type": "DIE",
+      "severity": "moderate",
+      "lesion_volume_ml": 5.555129999999999
+    },
+    {
+      "patient_id": "ENDO_DIE_06",
+      "diagnosis": "endometriosis",
+      "lesion_type": "DIE",
+      "severity": "moderate",
+      "lesion_volume_ml": 5.555129999999999
+    },
+    {
+      "patient_id": "ENDO_OVAR_01",
+      "diagnosis": "endometriosis",
+      "lesion_type": "ovarian",
+      "severity": "moderate",
+      "lesion_volume_ml": 7.621949999999999
+    },
+    {
+      "patient_id": "ENDO_OVAR_02",
+      "diagnosis": "endometriosis",
+      "lesion_type": "ovarian",
+      "severity": "moderate",
+      "lesion_volume_ml": 7.621949999999999
+    },
+    {
+      "patient_id": "ENDO_OVAR_03",
+      "diagnosis": "endometriosis",
+      "lesion_type": "ovarian",
+      "severity": "moderate",
+      "lesion_volume_ml": 7.621949999999999
+    },
+    {
+      "patient_id": "ENDO_OVAR_04",
+      "diagnosis": "endometriosis",
+      "lesion_type": "ovarian",
+      "severity": "moderate",
+      "lesion_volume_ml": 7.621949999999999
+    },
+    {
+      "patient_id": "ENDO_OVAR_05",
+      "diagnosis": "endometriosis",
+      "lesion_type": "ovarian",
+      "severity": "moderate",
+      "lesion_volume_ml": 7.621949999999999
+    },
+    {
+      "patient_id": "ENDO_OVAR_06",
+      "diagnosis": "endometriosis",
+      "lesion_type": "ovarian",
+      "severity": "moderate",
+      "lesion_volume_ml": 7.621949999999999
+    },
+    {
+      "patient_id": "ENDO_MIX_01",
+      "diagnosis": "endometriosis",
+      "lesion_type": "mixed",
+      "severity": "severe",
+      "lesion_volume_ml": 27.634529999999994
+    },
+    {
+      "patient_id": "ENDO_MIX_02",
+      "diagnosis": "endometriosis",
+      "lesion_type": "mixed",
+      "severity": "severe",
+      "lesion_volume_ml": 27.656579999999995
+    },
+    {
+      "patient_id": "ENDO_MIX_03",
+      "diagnosis": "endometriosis",
+      "lesion_type": "mixed",
+      "severity": "severe",
+      "lesion_volume_ml": 27.630119999999994
+    },
+    {
+      "patient_id": "ENDO_MIX_04",
+      "diagnosis": "endometriosis",
+      "lesion_type": "mixed",
+      "severity": "severe",
+      "lesion_volume_ml": 27.660989999999998
+    },
+    {
+      "patient_id": "ENDO_MIX_05",
+      "diagnosis": "endometriosis",
+      "lesion_type": "mixed",
+      "severity": "severe",
+      "lesion_volume_ml": 27.59043
+    },
+    {
+      "patient_id": "ENDO_MIX_06",
+      "diagnosis": "endometriosis",
+      "lesion_type": "mixed",
+      "severity": "severe",
+      "lesion_volume_ml": 27.628649999999997
+    },
+    {
+      "patient_id": "CONTROL_01",
+      "diagnosis": "control",
+      "lesion_type": null,
+      "severity": null,
+      "lesion_volume_ml": 0.0
+    },
+    {
+      "patient_id": "CONTROL_02",
+      "diagnosis": "control",
+      "lesion_type": null,
+      "severity": null,
+      "lesion_volume_ml": 0.0
+    },
+    {
+      "patient_id": "CONTROL_03",
+      "diagnosis": "control",
+      "lesion_type": null,
+      "severity": null,
+      "lesion_volume_ml": 0.0
+    },
+    {
+      "patient_id": "CONTROL_04",
+      "diagnosis": "control",
+      "lesion_type": null,
+      "severity": null,
+      "lesion_volume_ml": 0.0
+    },
+    {
+      "patient_id": "CONTROL_05",
+      "diagnosis": "control",
+      "lesion_type": null,
+      "severity": null,
+      "lesion_volume_ml": 0.0
+    },
+    {
+      "patient_id": "CONTROL_06",
+      "diagnosis": "control",
+      "lesion_type": null,
+      "severity": null,
+      "lesion_volume_ml": 0.0
+    },
+    {
+      "patient_id": "CONTROL_07",
+      "diagnosis": "control",
+      "lesion_type": null,
+      "severity": null,
+      "lesion_volume_ml": 0.0
+    },
+    {
+      "patient_id": "CONTROL_08",
+      "diagnosis": "control",
+      "lesion_type": null,
+      "severity": null,
+      "lesion_volume_ml": 0.0
+    },
+    {
+      "patient_id": "CONTROL_09",
+      "diagnosis": "control",
+      "lesion_type": null,
+      "severity": null,
+      "lesion_volume_ml": 0.0
+    },
+    {
+      "patient_id": "CONTROL_10",
+      "diagnosis": "control",
+      "lesion_type": null,
+      "severity": null,
+      "lesion_volume_ml": 0.0
+    },
+    {
+      "patient_id": "CONTROL_11",
+      "diagnosis": "control",
+      "lesion_type": null,
+      "severity": null,
+      "lesion_volume_ml": 0.0
+    },
+    {
+      "patient_id": "CONTROL_12",
+      "diagnosis": "control",
+      "lesion_type": null,
+      "severity": null,
+      "lesion_volume_ml": 0.0
+    }
+  ],
+  "statistics": {
+    "total_patients": 30,
+    "endometriosis_cases": 18,
+    "controls": 12,
+    "image_dimensions": "256x256x48",
+    "voxel_spacing_mm": "0.7x0.7x3.0",
+    "modality": "T2-weighted MRI",
+    "reference": "Modeled after UT-EndoMRI (Liang et al. 2025)",
+    "lesion_classes": {
+      "0": "background",
+      "1": "superficial peritoneal",
+      "2": "ovarian endometrioma",
+      "3": "deep infiltrating (DIE)"
+    }
+  }
+}

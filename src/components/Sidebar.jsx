@@ -1,15 +1,12 @@
 import { Link, useLocation } from 'react-router-dom';
-import { LayoutDashboard, Upload, FileText, Users, FileCheck } from 'lucide-react';
+import { Upload, FileText } from 'lucide-react';
 
 export default function Sidebar() {
   const location = useLocation();
   
   const menuItems = [
-    { to: '/dashboard', icon: LayoutDashboard, label: 'Overview' },
     { to: '/dashboard?tab=upload', icon: Upload, label: 'Upload' },
     { to: '/dashboard?tab=outputs', icon: FileText, label: 'Outputs' },
-    { to: '/dashboard?tab=cohorts', icon: Users, label: 'Cohorts' },
-    { to: '/dashboard?tab=reports', icon: FileCheck, label: 'Reports' },
   ];
 
   const isActive = (path) => {
